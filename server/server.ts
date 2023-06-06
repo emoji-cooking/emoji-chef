@@ -1,8 +1,8 @@
+import { Request, Response, NextFunction } from 'express';
 const express = require('express');
 const path = require('path');
 const app = express();
 const PORT = 3000;
-import { Request, Response, NextFunction } from 'express';
 
 const emojis = require('./data/emojis.json');
 
@@ -35,7 +35,7 @@ app.use((err, req: Request, res: Response, next: NextFunction) => {
 });
 
 // listen port
-app.listen(PORT, () => {
+app.listen(PORT, (): void => {
     console.log(`Server listening on port: ${PORT}`)
 })
 

@@ -322,6 +322,7 @@ export default class Kitchen extends React.Component<
     ) => void,
     filterToValidCombosFor?: string
   ): Array<JSX.Element> {
+    //emoji-chef: returns array where every element is from known emojis, used for displaying left/right cols
     return knownSupportedEmoji.map((e) => {
       // Every emoji is considered valid unless we pass in one-half of the pair to filter on
       var isValidCombo = true;
