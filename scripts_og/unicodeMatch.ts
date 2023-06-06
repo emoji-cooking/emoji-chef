@@ -45,4 +45,7 @@ for (const unicode of knownEmojis) {
   }
 }
 
-fs.writeFileSync(path.resolve(__dirname, './processedEmojis.json'), JSON.stringify(processedEmojis));
+//needs to only run once unless new emojis are added to knownEmojis
+// fs.writeFileSync(path.resolve(__dirname, './processedEmojis.json'), JSON.stringify(processedEmojis));
+
+
