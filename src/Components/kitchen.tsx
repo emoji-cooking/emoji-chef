@@ -355,6 +355,7 @@ export default class Kitchen extends React.Component<
   ): Array<JSX.Element> {
     // THIS WHOLE SECTION NEEDS REFACTORING!!
     const { searchQuery } = this.state;
+    // array to store filtered unicode ids
     const unicodeArr = [];
     const splitSearch = [];
     if (searchQuery.includes(" ")) {
@@ -378,6 +379,12 @@ export default class Kitchen extends React.Component<
     for (let i = 0; i < filteredEmojis.length; i++) {
       unicodeArr.push(filteredEmojis[i].unicode);
     }
+
+    function checker() {
+      if (!searchQuery.length) return true;
+      else if (side === "r" && splitSearch.length > 1) return false;
+      else if (searchQuery.length && side === "r") return true;
+    }
     //
 
     //emoji-chef: returns array where every element is from known emojis, used for displaying left/right cols
@@ -386,9 +393,7 @@ export default class Kitchen extends React.Component<
     // on unicode id in URI. Search bar will filter based on emoji name/tags.
     // First should probably implement a filter function based on unicode id just to get that function working
     // might have to change map to filter?
-    return (
-      !searchQuery.length || side === "r" ? knownSupportedEmoji : unicodeArr
-    ).map((e) => {
+    return (checker() ? knownSupportedEmoji : unicodeArr).map((e) => {
       // Every emoji is considered valid unless we pass in one-half of the pair to filter on
       let isValidCombo = true;
       if (filterToValidCombosFor) {
