@@ -272,6 +272,12 @@
     ]
   },
   {
+    "unicode": "1f970",
+    "name": "smiling face with hearts",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f60d",
     "name": "smiling face with heart-eyes",
     "category": "smileys & emotion",
@@ -294,6 +300,12 @@
       "famous",
       "admiration"
     ]
+  },
+  {
+    "unicode": "1f973",
+    "name": "partying face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f643",
@@ -323,6 +335,18 @@
       "good",
       "selfie"
     ]
+  },
+  {
+    "unicode": "1f972",
+    "name": "smiling face with tear",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f979",
+    "name": "face holding back tears",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f60b",
@@ -431,6 +455,17 @@
     ]
   },
   {
+    "unicode": "263a-fe0f",
+    "name": "smiling face",
+    "category": "smileys & emotion",
+    "keywords": [
+      "love",
+      "beautiful",
+      "red",
+      "cheeks"
+    ]
+  },
+  {
     "unicode": "1f60f",
     "name": "smirking face",
     "category": "smileys & emotion",
@@ -492,6 +527,12 @@
     ]
   },
   {
+    "unicode": "1fae1",
+    "name": "saluting face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f914",
     "name": "thinking face",
     "category": "smileys & emotion",
@@ -509,12 +550,24 @@
     ]
   },
   {
+    "unicode": "1fae2",
+    "name": "face with open eyes and hand over mouth",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f92d",
     "name": "face with hand over mouth",
     "category": "smileys & emotion",
     "keywords": [
       "oups"
     ]
+  },
+  {
+    "unicode": "1f971",
+    "name": "yawning face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f917",
@@ -524,6 +577,12 @@
       "hug",
       "thank you"
     ]
+  },
+  {
+    "unicode": "1fae3",
+    "name": "face with peeking eye",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f631",
@@ -573,6 +632,12 @@
     "keywords": []
   },
   {
+    "unicode": "1f62e-200d-1f4a8",
+    "name": "face exhaling",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f624",
     "name": "face with steam from nose",
     "category": "smileys & emotion",
@@ -616,6 +681,12 @@
       "zipper",
       "red"
     ]
+  },
+  {
+    "unicode": "1f97a",
+    "name": "pleading face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f61f",
@@ -662,6 +733,19 @@
     ]
   },
   {
+    "unicode": "2639-fe0f",
+    "name": "frowning face",
+    "category": "smileys & emotion",
+    "keywords": [
+      "sad",
+      "mad",
+      "emotion",
+      "unhappy",
+      "bad",
+      "disappointed"
+    ]
+  },
+  {
     "unicode": "1f641",
     "name": "slightly frowning face",
     "category": "smileys & emotion",
@@ -673,6 +757,12 @@
       "bad",
       "disappointed"
     ]
+  },
+  {
+    "unicode": "1fae4",
+    "name": "face with diagonal mouth",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f615",
@@ -897,6 +987,12 @@
     ]
   },
   {
+    "unicode": "1fae5",
+    "name": "dotted line face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f634",
     "name": "sleeping face",
     "category": "smileys & emotion",
@@ -984,6 +1080,36 @@
       "hump",
       "morning"
     ]
+  },
+  {
+    "unicode": "1fae0",
+    "name": "melting face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f636-200d-1f32b-fe0f",
+    "name": "face in clouds",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f974",
+    "name": "woozy face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f975",
+    "name": "hot face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f976",
+    "name": "cold face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f922",
@@ -1101,6 +1227,12 @@
     "keywords": [
       "glasses"
     ]
+  },
+  {
+    "unicode": "1f978",
+    "name": "disguised face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f925",
@@ -1258,6 +1390,14 @@
     "keywords": []
   },
   {
+    "unicode": "1f573-fe0f",
+    "name": "hole",
+    "category": "smileys & emotion",
+    "keywords": [
+      "fall"
+    ]
+  },
+  {
     "unicode": "1f38a",
     "name": "confetti ball",
     "category": "activities",
@@ -1267,6 +1407,14 @@
       "cheers",
       "night",
       "parties"
+    ]
+  },
+  {
+    "unicode": "2764-fe0f",
+    "name": "red heart",
+    "category": "smileys & emotion",
+    "keywords": [
+      "love"
     ]
   },
   {
@@ -1310,11 +1458,32 @@
     ]
   },
   {
+    "unicode": "1f90e",
+    "name": "brown heart",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f5a4",
     "name": "black heart",
     "category": "smileys & emotion",
     "keywords": [
       "love"
+    ]
+  },
+  {
+    "unicode": "1f90d",
+    "name": "white heart",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "2665-fe0f",
+    "name": "heart suit",
+    "category": "activities",
+    "keywords": [
+      "card",
+      "sign"
     ]
   },
   {
@@ -1393,6 +1562,20 @@
     ]
   },
   {
+    "unicode": "2763-fe0f",
+    "name": "heavy heart exclamation",
+    "category": "smileys & emotion",
+    "keywords": [
+      "love"
+    ]
+  },
+  {
+    "unicode": "2764-fe0f-200d-1fa79",
+    "name": "mending heart",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f494",
     "name": "broken heart",
     "category": "smileys & emotion",
@@ -1457,6 +1640,14 @@
     ]
   },
   {
+    "unicode": "1f441-fe0f",
+    "name": "eye",
+    "category": "people & body",
+    "keywords": [
+      "look"
+    ]
+  },
+  {
     "unicode": "1f490",
     "name": "bouquet",
     "category": "animals & nature",
@@ -1500,6 +1691,12 @@
   {
     "unicode": "1f4ae",
     "name": "white flower",
+    "category": "animals & nature",
+    "keywords": []
+  },
+  {
+    "unicode": "1f3f5-fe0f",
+    "name": "rosette",
     "category": "animals & nature",
     "keywords": []
   },
@@ -1652,11 +1849,26 @@
     ]
   },
   {
+    "unicode": "1f32c-fe0f",
+    "name": "wind face",
+    "category": "travel & places",
+    "keywords": []
+  },
+  {
     "unicode": "1f300",
     "name": "cyclone",
     "category": "travel & places",
     "keywords": [
       "drugs"
+    ]
+  },
+  {
+    "unicode": "1f32a-fe0f",
+    "name": "tornado",
+    "category": "travel & places",
+    "keywords": [
+      "disaster",
+      "catastrophe"
     ]
   },
   {
@@ -1669,8 +1881,39 @@
     ]
   },
   {
+    "unicode": "1f3d6-fe0f",
+    "name": "beach with umbrella",
+    "category": "travel & places",
+    "keywords": [
+      "vacation",
+      "holidays",
+      "sun",
+      "sea"
+    ]
+  },
+  {
     "unicode": "26c5",
     "name": "sun behind cloud",
+    "category": "travel & places",
+    "keywords": []
+  },
+  {
+    "unicode": "2601-fe0f",
+    "name": "cloud",
+    "category": "travel & places",
+    "keywords": [
+      "rain"
+    ]
+  },
+  {
+    "unicode": "1f327-fe0f",
+    "name": "cloud with rain",
+    "category": "travel & places",
+    "keywords": []
+  },
+  {
+    "unicode": "1f329-fe0f",
+    "name": "cloud with lightning",
     "category": "travel & places",
     "keywords": []
   },
@@ -1681,6 +1924,15 @@
     "keywords": [
       "weather",
       "rain"
+    ]
+  },
+  {
+    "unicode": "2602-fe0f",
+    "name": "umbrella",
+    "category": "travel & places",
+    "keywords": [
+      "rain",
+      "accessories"
     ]
   },
   {
@@ -1696,6 +1948,15 @@
     "keywords": [
       "gay",
       "rain"
+    ]
+  },
+  {
+    "unicode": "2604-fe0f",
+    "name": "comet",
+    "category": "travel & places",
+    "keywords": [
+      "disaster",
+      "catastrophe"
     ]
   },
   {
@@ -1928,6 +2189,12 @@
     ]
   },
   {
+    "unicode": "1f54a-fe0f",
+    "name": "dove",
+    "category": "animals & nature",
+    "keywords": []
+  },
+  {
     "unicode": "1f9a9",
     "name": "flamingo",
     "category": "animals & nature",
@@ -2009,6 +2276,15 @@
     "category": "animals & nature",
     "keywords": [
       "insect"
+    ]
+  },
+  {
+    "unicode": "1f577-fe0f",
+    "name": "spider",
+    "category": "animals & nature",
+    "keywords": [
+      "insect",
+      "spiderman"
     ]
   },
   {
@@ -2188,6 +2464,12 @@
       "vegetable",
       "red"
     ]
+  },
+  {
+    "unicode": "1f336-fe0f",
+    "name": "hot pepper",
+    "category": "food & drink",
+    "keywords": []
   },
   {
     "unicode": "1f955",
@@ -2696,6 +2978,15 @@
     ]
   },
   {
+    "unicode": "1f37d-fe0f",
+    "name": "fork and knife with plate",
+    "category": "food & drink",
+    "keywords": [
+      "eat",
+      "restaurant"
+    ]
+  },
+  {
     "unicode": "1f6d1",
     "name": "stop sign",
     "category": "travel & places",
@@ -2783,6 +3074,16 @@
     ]
   },
   {
+    "unicode": "2708-fe0f",
+    "name": "airplane",
+    "category": "travel & places",
+    "keywords": [
+      "airplane",
+      "airport",
+      "fly"
+    ]
+  },
+  {
     "unicode": "1f3a2",
     "name": "roller coaster",
     "category": "travel & places",
@@ -2807,11 +3108,38 @@
     "keywords": []
   },
   {
+    "unicode": "1f3db-fe0f",
+    "name": "classical building",
+    "category": "travel & places",
+    "keywords": []
+  },
+  {
+    "unicode": "1f3df-fe0f",
+    "name": "stadium",
+    "category": "travel & places",
+    "keywords": [
+      "sport",
+      "foot",
+      "football",
+      "rugby",
+      "athletics"
+    ]
+  },
+  {
     "unicode": "1f3e0",
     "name": "house",
     "category": "travel & places",
     "keywords": [
       "home"
+    ]
+  },
+  {
+    "unicode": "1f3d5-fe0f",
+    "name": "camping",
+    "category": "travel & places",
+    "keywords": [
+      "vacation",
+      "holidays"
     ]
   },
   {
@@ -2822,6 +3150,16 @@
       "building",
       "sky",
       "vacation"
+    ]
+  },
+  {
+    "unicode": "1f3dd-fe0f",
+    "name": "desert island",
+    "category": "travel & places",
+    "keywords": [
+      "vacation",
+      "holidays",
+      "beach"
     ]
   },
   {
@@ -2858,6 +3196,17 @@
     "name": "mirror ball",
     "category": "activities",
     "keywords": []
+  },
+  {
+    "unicode": "1f397-fe0f",
+    "name": "reminder ribbon",
+    "category": "activities",
+    "keywords": [
+      "birthday",
+      "holidays",
+      "christmas",
+      "parties"
+    ]
   },
   {
     "unicode": "1f947",
@@ -2911,6 +3260,14 @@
       "parties",
       "competition",
       "tournament"
+    ]
+  },
+  {
+    "unicode": "1f396-fe0f",
+    "name": "military medal",
+    "category": "activities",
+    "keywords": [
+      "war"
     ]
   },
   {
@@ -3076,6 +3433,12 @@
     ]
   },
   {
+    "unicode": "26f8-fe0f",
+    "name": "ice skate",
+    "category": "activities",
+    "keywords": []
+  },
+  {
     "unicode": "1f6fc",
     "name": "roller skate",
     "category": "travel & places",
@@ -3197,6 +3560,12 @@
     ]
   },
   {
+    "unicode": "265f-fe0f",
+    "name": "chess pawn",
+    "category": "activities",
+    "keywords": []
+  },
+  {
     "unicode": "1fa80",
     "name": "yo-yo",
     "category": "activities",
@@ -3270,6 +3639,22 @@
     "category": "activities",
     "keywords": [
       "draw"
+    ]
+  },
+  {
+    "unicode": "1f58c-fe0f",
+    "name": "paintbrush",
+    "category": "objects",
+    "keywords": [
+      "draw"
+    ]
+  },
+  {
+    "unicode": "1f58d-fe0f",
+    "name": "crayon",
+    "category": "objects",
+    "keywords": [
+      "write"
     ]
   },
   {
@@ -3368,12 +3753,27 @@
     ]
   },
   {
+    "unicode": "1f399-fe0f",
+    "name": "studio microphone",
+    "category": "objects",
+    "keywords": [
+      "sing",
+      "singer"
+    ]
+  },
+  {
     "unicode": "1f4fa",
     "name": "television",
     "category": "objects",
     "keywords": [
       "tv"
     ]
+  },
+  {
+    "unicode": "1f39e-fe0f",
+    "name": "film frames",
+    "category": "objects",
+    "keywords": []
   },
   {
     "unicode": "1f3ac",
@@ -3394,6 +3794,12 @@
     ]
   },
   {
+    "unicode": "1f39f-fe0f",
+    "name": "admission tickets",
+    "category": "activities",
+    "keywords": []
+  },
+  {
     "unicode": "1f4f1",
     "name": "mobile phone",
     "category": "objects",
@@ -3405,6 +3811,12 @@
       "xiaomi",
       "huawei"
     ]
+  },
+  {
+    "unicode": "260e-fe0f",
+    "name": "telephone",
+    "category": "objects",
+    "keywords": []
   },
   {
     "unicode": "1f50b",
@@ -3438,6 +3850,14 @@
     "name": "money with wings",
     "category": "objects",
     "keywords": []
+  },
+  {
+    "unicode": "2696-fe0f",
+    "name": "balance scale",
+    "category": "objects",
+    "keywords": [
+      "weight"
+    ]
   },
   {
     "unicode": "1f4a1",
@@ -3482,12 +3902,66 @@
     ]
   },
   {
+    "unicode": "1f6e0-fe0f",
+    "name": "hammer and wrench",
+    "category": "objects",
+    "keywords": []
+  },
+  {
+    "unicode": "26d3-fe0f",
+    "name": "chains",
+    "category": "objects",
+    "keywords": [
+      "slavery"
+    ]
+  },
+  {
+    "unicode": "1f5d1-fe0f",
+    "name": "wastebasket",
+    "category": "objects",
+    "keywords": [
+      "trash",
+      "delete",
+      "remove"
+    ]
+  },
+  {
+    "unicode": "1f58a-fe0f",
+    "name": "pen",
+    "category": "objects",
+    "keywords": [
+      "write"
+    ]
+  },
+  {
+    "unicode": "2712-fe0f",
+    "name": "black nib",
+    "category": "objects",
+    "keywords": [
+      "write"
+    ]
+  },
+  {
+    "unicode": "270f-fe0f",
+    "name": "pencil",
+    "category": "objects",
+    "keywords": [
+      "write"
+    ]
+  },
+  {
     "unicode": "1f4da",
     "name": "books",
     "category": "objects",
     "keywords": [
       "book"
     ]
+  },
+  {
+    "unicode": "1f5c3-fe0f",
+    "name": "card file box",
+    "category": "objects",
+    "keywords": []
   },
   {
     "unicode": "1f4f0",
@@ -3526,6 +4000,12 @@
     "unicode": "1f9ff",
     "name": "nazar amulet",
     "category": "activities",
+    "keywords": []
+  },
+  {
+    "unicode": "1f5dd-fe0f",
+    "name": "old key",
+    "category": "objects",
     "keywords": []
   },
   {
@@ -3632,6 +4112,12 @@
     ]
   },
   {
+    "unicode": "2049-fe0f",
+    "name": "exclamation question mark",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
     "unicode": "1f198",
     "name": "SOS button",
     "category": "symbols",
@@ -3651,6 +4137,20 @@
     "category": "objects",
     "keywords": [
       "alarm"
+    ]
+  },
+  {
+    "unicode": "26a0-fe0f",
+    "name": "warning",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "267b-fe0f",
+    "name": "recycling symbol",
+    "category": "symbols",
+    "keywords": [
+      "trash"
     ]
   },
   {
@@ -3699,6 +4199,37 @@
     ]
   },
   {
+    "unicode": "262e-fe0f",
+    "name": "peace symbol",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "262f-fe0f",
+    "name": "yin yang",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "267e-fe0f",
+    "name": "infinity",
+    "category": "symbols",
+    "keywords": [
+      "math"
+    ]
+  },
+  {
+    "unicode": "2716-fe0f",
+    "name": "heavy multiplication x",
+    "category": "symbols",
+    "keywords": [
+      "ko",
+      "incoorect",
+      "wrong",
+      "cross"
+    ]
+  },
+  {
     "unicode": "2795",
     "name": "heavy plus sign",
     "category": "symbols",
@@ -3732,6 +4263,45 @@
     "unicode": "27bf",
     "name": "double curly loop",
     "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "3030-fe0f",
+    "name": "wavy dash",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "00a9-fe0f",
+    "name": "copyright",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "00ae-fe0f",
+    "name": "registered",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "2122-fe0f",
+    "name": "trade mark",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "2660-fe0f",
+    "name": "spade suit",
+    "category": "activities",
+    "keywords": [
+      "card",
+      "sign"
+    ]
+  },
+  {
+    "unicode": "1f5ef-fe0f",
+    "name": "right anger bubble",
+    "category": "smileys & emotion",
     "keywords": []
   },
   {

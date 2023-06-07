@@ -217,14 +217,7 @@
     "unicode": "1f617",
     "name": "kissing face",
     "category": "smileys & emotion",
-    "keywords": [
-      "kiss",
-      "sexy",
-      "love",
-      "sex",
-      "beautiful",
-      "lips"
-    ]
+    "keywords": ["kiss", "sexy", "love", "sex", "beautiful", "lips"]
   },
   {
     "unicode": "1f619",
@@ -272,6 +265,12 @@
     ]
   },
   {
+    "unicode": "1f970",
+    "name": "smiling face with hearts",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f60d",
     "name": "smiling face with heart-eyes",
     "category": "smileys & emotion",
@@ -290,20 +289,19 @@
     "unicode": "1f929",
     "name": "star-struck",
     "category": "smileys & emotion",
-    "keywords": [
-      "famous",
-      "admiration"
-    ]
+    "keywords": ["famous", "admiration"]
+  },
+  {
+    "unicode": "1f973",
+    "name": "partying face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f643",
     "name": "upside-down face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sarcastic",
-      "joke",
-      "mad"
-    ]
+    "keywords": ["sarcastic", "joke", "mad"]
   },
   {
     "unicode": "1f642",
@@ -323,6 +321,18 @@
       "good",
       "selfie"
     ]
+  },
+  {
+    "unicode": "1f972",
+    "name": "smiling face with tear",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f979",
+    "name": "face holding back tears",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f60b",
@@ -393,21 +403,13 @@
     "unicode": "1f92a",
     "name": "zany face",
     "category": "smileys & emotion",
-    "keywords": [
-      "crazy",
-      "joke",
-      "mad"
-    ]
+    "keywords": ["crazy", "joke", "mad"]
   },
   {
     "unicode": "1f607",
     "name": "smiling face with halo",
     "category": "smileys & emotion",
-    "keywords": [
-      "paradise",
-      "angel",
-      "religion"
-    ]
+    "keywords": ["paradise", "angel", "religion"]
   },
   {
     "unicode": "1f60a",
@@ -431,144 +433,128 @@
     ]
   },
   {
+    "unicode": "263a-fe0f",
+    "name": "smiling face",
+    "category": "smileys & emotion",
+    "keywords": ["love", "beautiful", "red", "cheeks"]
+  },
+  {
     "unicode": "1f60f",
     "name": "smirking face",
     "category": "smileys & emotion",
-    "keywords": [
-      "silly",
-      "sexy",
-      "sex",
-      "erotic"
-    ]
+    "keywords": ["silly", "sexy", "sex", "erotic"]
   },
   {
     "unicode": "1f60c",
     "name": "relieved face",
     "category": "smileys & emotion",
-    "keywords": [
-      "positive",
-      "cool",
-      "good"
-    ]
+    "keywords": ["positive", "cool", "good"]
   },
   {
     "unicode": "1f614",
     "name": "pensive face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "rip",
-      "unhappy",
-      "bad",
-      "bad"
-    ]
+    "keywords": ["sad", "rip", "unhappy", "bad", "bad"]
   },
   {
     "unicode": "1f611",
     "name": "expressionless face",
     "category": "smileys & emotion",
-    "keywords": [
-      "neutral",
-      "emotion"
-    ]
+    "keywords": ["neutral", "emotion"]
   },
   {
     "unicode": "1f610",
     "name": "neutral face",
     "category": "smileys & emotion",
-    "keywords": [
-      "smiley",
-      "shrug",
-      "expressionless"
-    ]
+    "keywords": ["smiley", "shrug", "expressionless"]
   },
   {
     "unicode": "1f636",
     "name": "face without mouth",
     "category": "smileys & emotion",
-    "keywords": [
-      "neutral",
-      "expressionless"
-    ]
+    "keywords": ["neutral", "expressionless"]
+  },
+  {
+    "unicode": "1fae1",
+    "name": "saluting face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f914",
     "name": "thinking face",
     "category": "smileys & emotion",
-    "keywords": [
-      "think"
-    ]
+    "keywords": ["think"]
   },
   {
     "unicode": "1f92b",
     "name": "shushing face",
     "category": "smileys & emotion",
-    "keywords": [
-      "silence",
-      "noise"
-    ]
+    "keywords": ["silence", "noise"]
+  },
+  {
+    "unicode": "1fae2",
+    "name": "face with open eyes and hand over mouth",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f92d",
     "name": "face with hand over mouth",
     "category": "smileys & emotion",
-    "keywords": [
-      "oups"
-    ]
+    "keywords": ["oups"]
+  },
+  {
+    "unicode": "1f971",
+    "name": "yawning face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f917",
     "name": "hugging face",
     "category": "smileys & emotion",
-    "keywords": [
-      "hug",
-      "thank you"
-    ]
+    "keywords": ["hug", "thank you"]
+  },
+  {
+    "unicode": "1fae3",
+    "name": "face with peeking eye",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f631",
     "name": "face screaming in fear",
     "category": "smileys & emotion",
-    "keywords": [
-      "surprised",
-      "wow",
-      "emotion",
-      "omg"
-    ]
+    "keywords": ["surprised", "wow", "emotion", "omg"]
   },
   {
     "unicode": "1f928",
     "name": "face with raised eyebrow",
     "category": "smileys & emotion",
-    "keywords": [
-      "understanding"
-    ]
+    "keywords": ["understanding"]
   },
   {
     "unicode": "1f9d0",
     "name": "face with monocle",
     "category": "smileys & emotion",
-    "keywords": [
-      "glasses",
-      "nerd"
-    ]
+    "keywords": ["glasses", "nerd"]
   },
   {
     "unicode": "1f612",
     "name": "unamused face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "mad",
-      "tired",
-      "emotion",
-      "unhappy",
-      "bad"
-    ]
+    "keywords": ["sad", "mad", "tired", "emotion", "unhappy", "bad"]
   },
   {
     "unicode": "1f644",
     "name": "face with rolling eyes",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f62e-200d-1f4a8",
+    "name": "face exhaling",
     "category": "smileys & emotion",
     "keywords": []
   },
@@ -590,45 +576,31 @@
     "unicode": "1f620",
     "name": "angry face",
     "category": "smileys & emotion",
-    "keywords": [
-      "irritated"
-    ]
+    "keywords": ["irritated"]
   },
   {
     "unicode": "1f621",
     "name": "pouting face",
     "category": "smileys & emotion",
-    "keywords": [
-      "mad",
-      "smiley",
-      "angry",
-      "emotion",
-      "red"
-    ]
+    "keywords": ["mad", "smiley", "angry", "emotion", "red"]
   },
   {
     "unicode": "1f92c",
     "name": "face with symbols on mouth",
     "category": "smileys & emotion",
-    "keywords": [
-      "angry",
-      "zip",
-      "zipper",
-      "red"
-    ]
+    "keywords": ["angry", "zip", "zipper", "red"]
+  },
+  {
+    "unicode": "1f97a",
+    "name": "pleading face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f61f",
     "name": "worried face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "mad",
-      "tired",
-      "emotion",
-      "unhappy",
-      "bad"
-    ]
+    "keywords": ["sad", "mad", "tired", "emotion", "unhappy", "bad"]
   },
   {
     "unicode": "1f625",
@@ -651,160 +623,97 @@
     "unicode": "1f622",
     "name": "crying face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "cry",
-      "emotion",
-      "rip",
-      "heartbreak",
-      "bad",
-      "unhappy"
-    ]
+    "keywords": ["sad", "cry", "emotion", "rip", "heartbreak", "bad", "unhappy"]
+  },
+  {
+    "unicode": "2639-fe0f",
+    "name": "frowning face",
+    "category": "smileys & emotion",
+    "keywords": ["sad", "mad", "emotion", "unhappy", "bad", "disappointed"]
   },
   {
     "unicode": "1f641",
     "name": "slightly frowning face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "mad",
-      "emotion",
-      "unhappy",
-      "bad",
-      "disappointed"
-    ]
+    "keywords": ["sad", "mad", "emotion", "unhappy", "bad", "disappointed"]
+  },
+  {
+    "unicode": "1fae4",
+    "name": "face with diagonal mouth",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f615",
     "name": "confused face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "depressed",
-      "tired",
-      "unhappy",
-      "bad",
-      "sweat"
-    ]
+    "keywords": ["sad", "depressed", "tired", "unhappy", "bad", "sweat"]
   },
   {
     "unicode": "1f910",
     "name": "zipper-mouth face",
     "category": "smileys & emotion",
-    "keywords": [
-      "zip",
-      "mad",
-      "mute"
-    ]
+    "keywords": ["zip", "mad", "mute"]
   },
   {
     "unicode": "1f630",
     "name": "anxious face with sweat",
     "category": "smileys & emotion",
-    "keywords": [
-      "sweat",
-      "smiley",
-      "emotion"
-    ]
+    "keywords": ["sweat", "smiley", "emotion"]
   },
   {
     "unicode": "1f628",
     "name": "fearful face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "smiley",
-      "surprised",
-      "emotion"
-    ]
+    "keywords": ["sad", "smiley", "surprised", "emotion"]
   },
   {
     "unicode": "1f627",
     "name": "anguished face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "smiley",
-      "surprised",
-      "emotion"
-    ]
+    "keywords": ["sad", "smiley", "surprised", "emotion"]
   },
   {
     "unicode": "1f626",
     "name": "frowning face with open mouth",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "smiley",
-      "surprised",
-      "emotion"
-    ]
+    "keywords": ["sad", "smiley", "surprised", "emotion"]
   },
   {
     "unicode": "1f62e",
     "name": "face with open mouth",
     "category": "smileys & emotion",
-    "keywords": [
-      "cry",
-      "emotion",
-      "surprised",
-      "wow"
-    ]
+    "keywords": ["cry", "emotion", "surprised", "wow"]
   },
   {
     "unicode": "1f62f",
     "name": "hushed face",
     "category": "smileys & emotion",
-    "keywords": [
-      "emotion",
-      "surprised",
-      "wow"
-    ]
+    "keywords": ["emotion", "surprised", "wow"]
   },
   {
     "unicode": "1f632",
     "name": "astonished face",
     "category": "smileys & emotion",
-    "keywords": [
-      "surprised",
-      "wow",
-      "omg"
-    ]
+    "keywords": ["surprised", "wow", "omg"]
   },
   {
     "unicode": "1f633",
     "name": "flushed face",
     "category": "smileys & emotion",
-    "keywords": [
-      "surprised",
-      "flushed",
-      "emotion",
-      "omg"
-    ]
+    "keywords": ["surprised", "flushed", "emotion", "omg"]
   },
   {
     "unicode": "1f92f",
     "name": "exploding head",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "tired",
-      "stressed",
-      "emotion",
-      "bomb"
-    ]
+    "keywords": ["sad", "tired", "stressed", "emotion", "bomb"]
   },
   {
     "unicode": "1f62c",
     "name": "grimacing face",
     "category": "smileys & emotion",
-    "keywords": [
-      "silly",
-      "smiley",
-      "emotion",
-      "selfie",
-      "squinting"
-    ]
+    "keywords": ["silly", "smiley", "emotion", "selfie", "squinting"]
   },
   {
     "unicode": "1f613",
@@ -825,14 +734,7 @@
     "unicode": "1f61e",
     "name": "disappointed face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "mad",
-      "tired",
-      "emotion",
-      "unhappy",
-      "bad"
-    ]
+    "keywords": ["sad", "mad", "tired", "emotion", "unhappy", "bad"]
   },
   {
     "unicode": "1f616",
@@ -851,229 +753,157 @@
     "unicode": "1f623",
     "name": "persevering face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "angry",
-      "emotion",
-      "unhappy",
-      "bad",
-      "disappointed"
-    ]
+    "keywords": ["sad", "angry", "emotion", "unhappy", "bad", "disappointed"]
   },
   {
     "unicode": "1f629",
     "name": "weary face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sad",
-      "tired",
-      "stressed",
-      "emotion"
-    ]
+    "keywords": ["sad", "tired", "stressed", "emotion"]
   },
   {
     "unicode": "1f62b",
     "name": "tired face",
     "category": "smileys & emotion",
-    "keywords": [
-      "disappointed",
-      "sad",
-      "emotion",
-      "cry",
-      "bad",
-      "unhappy"
-    ]
+    "keywords": ["disappointed", "sad", "emotion", "cry", "bad", "unhappy"]
   },
   {
     "unicode": "1f635",
     "name": "dizzy face",
     "category": "smileys & emotion",
-    "keywords": [
-      "surprised",
-      "dead",
-      "wow",
-      "emotion",
-      "omg"
-    ]
+    "keywords": ["surprised", "dead", "wow", "emotion", "omg"]
+  },
+  {
+    "unicode": "1fae5",
+    "name": "dotted line face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f634",
     "name": "sleeping face",
     "category": "smileys & emotion",
-    "keywords": [
-      "tired",
-      "goodnight",
-      "sleep",
-      "bed",
-      "dream"
-    ]
+    "keywords": ["tired", "goodnight", "sleep", "bed", "dream"]
   },
   {
     "unicode": "1f62a",
     "name": "sleepy face",
     "category": "smileys & emotion",
-    "keywords": [
-      "bed",
-      "sick",
-      "emotion",
-      "health",
-      "ill",
-      "nauseated"
-    ]
+    "keywords": ["bed", "sick", "emotion", "health", "ill", "nauseated"]
   },
   {
     "unicode": "1f924",
     "name": "drooling face",
     "category": "smileys & emotion",
-    "keywords": [
-      "drool",
-      "tired",
-      "dream",
-      "sick",
-      "ill",
-      "nauseated"
-    ]
+    "keywords": ["drool", "tired", "dream", "sick", "ill", "nauseated"]
   },
   {
     "unicode": "1f31b",
     "name": "first quarter moon face",
     "category": "travel & places",
-    "keywords": [
-      "space",
-      "goodnight",
-      "night"
-    ]
+    "keywords": ["space", "goodnight", "night"]
   },
   {
     "unicode": "1f31c",
     "name": "last quarter moon face",
     "category": "travel & places",
-    "keywords": [
-      "space",
-      "goodnight",
-      "night"
-    ]
+    "keywords": ["space", "goodnight", "night"]
   },
   {
     "unicode": "1f31a",
     "name": "new moon face",
     "category": "travel & places",
-    "keywords": [
-      "space",
-      "goodnight",
-      "night"
-    ]
+    "keywords": ["space", "goodnight", "night"]
   },
   {
     "unicode": "1f31d",
     "name": "full moon face",
     "category": "travel & places",
-    "keywords": [
-      "space",
-      "sky",
-      "goodnight",
-      "night"
-    ]
+    "keywords": ["space", "sky", "goodnight", "night"]
   },
   {
     "unicode": "1f31e",
     "name": "sun with face",
     "category": "travel & places",
-    "keywords": [
-      "day",
-      "hump",
-      "morning"
-    ]
+    "keywords": ["day", "hump", "morning"]
+  },
+  {
+    "unicode": "1fae0",
+    "name": "melting face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f636-200d-1f32b-fe0f",
+    "name": "face in clouds",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f974",
+    "name": "woozy face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f975",
+    "name": "hot face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f976",
+    "name": "cold face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f922",
     "name": "nauseated face",
     "category": "smileys & emotion",
-    "keywords": [
-      "sick",
-      "ill",
-      "vomiting"
-    ]
+    "keywords": ["sick", "ill", "vomiting"]
   },
   {
     "unicode": "1f92e",
     "name": "face vomiting",
     "category": "smileys & emotion",
-    "keywords": [
-      "sick",
-      "ill",
-      "nauseated",
-      "vomit"
-    ]
+    "keywords": ["sick", "ill", "nauseated", "vomit"]
   },
   {
     "unicode": "1f927",
     "name": "sneezing face",
     "category": "smileys & emotion",
-    "keywords": [
-      "health",
-      "sick",
-      "ill",
-      "covid",
-      "glanders",
-      "handkerchiefs"
-    ]
+    "keywords": ["health", "sick", "ill", "covid", "glanders", "handkerchiefs"]
   },
   {
     "unicode": "1f912",
     "name": "face with thermometer",
     "category": "smileys & emotion",
-    "keywords": [
-      "health",
-      "sick",
-      "ill",
-      "covid"
-    ]
+    "keywords": ["health", "sick", "ill", "covid"]
   },
   {
     "unicode": "1f915",
     "name": "face with head-bandage",
     "category": "smileys & emotion",
-    "keywords": [
-      "health",
-      "sick",
-      "hospital"
-    ]
+    "keywords": ["health", "sick", "hospital"]
   },
   {
     "unicode": "1f637",
     "name": "face with medical mask",
     "category": "smileys & emotion",
-    "keywords": [
-      "covid",
-      "dead",
-      "health",
-      "sick",
-      "doctor",
-      "dentist"
-    ]
+    "keywords": ["covid", "dead", "health", "sick", "doctor", "dentist"]
   },
   {
     "unicode": "1f920",
     "name": "cowboy hat face",
     "category": "smileys & emotion",
-    "keywords": [
-      "far west",
-      "lucky luck"
-    ]
+    "keywords": ["far west", "lucky luck"]
   },
   {
     "unicode": "1f911",
     "name": "money-mouth face",
     "category": "smileys & emotion",
-    "keywords": [
-      "win",
-      "money",
-      "boys",
-      "night",
-      "rich",
-      "dollar"
-    ]
+    "keywords": ["win", "money", "boys", "night", "rich", "dollar"]
   },
   {
     "unicode": "1f60e",
@@ -1098,158 +928,103 @@
     "unicode": "1f913",
     "name": "nerd face",
     "category": "smileys & emotion",
-    "keywords": [
-      "glasses"
-    ]
+    "keywords": ["glasses"]
+  },
+  {
+    "unicode": "1f978",
+    "name": "disguised face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f925",
     "name": "lying face",
     "category": "smileys & emotion",
-    "keywords": [
-      "lie",
-      "pinocchio",
-      "noise"
-    ]
+    "keywords": ["lie", "pinocchio", "noise"]
   },
   {
     "unicode": "1f921",
     "name": "clown face",
     "category": "smileys & emotion",
-    "keywords": [
-      "happy",
-      "joke",
-      "circus",
-      "fancy"
-    ]
+    "keywords": ["happy", "joke", "circus", "fancy"]
   },
   {
     "unicode": "1f47b",
     "name": "ghost",
     "category": "smileys & emotion",
-    "keywords": [
-      "halloween",
-      "monster"
-    ]
+    "keywords": ["halloween", "monster"]
   },
   {
     "unicode": "1f4a9",
     "name": "pile of poo",
     "category": "smileys & emotion",
-    "keywords": [
-      "bathroom",
-      "shit",
-      "sol",
-      "diarrhea",
-      "caca"
-    ]
+    "keywords": ["bathroom", "shit", "sol", "diarrhea", "caca"]
   },
   {
     "unicode": "1f47d",
     "name": "alien",
     "category": "smileys & emotion",
-    "keywords": [
-      "extraterrestrial",
-      "space",
-      "monster",
-      "scientology"
-    ]
+    "keywords": ["extraterrestrial", "space", "monster", "scientology"]
   },
   {
     "unicode": "1f916",
     "name": "robot face",
     "category": "smileys & emotion",
-    "keywords": [
-      "terminator",
-      "humanoid"
-    ]
+    "keywords": ["terminator", "humanoid"]
   },
   {
     "unicode": "1f383",
     "name": "jack-o-lantern",
     "category": "activities",
-    "keywords": [
-      "holidays",
-      "halloween"
-    ]
+    "keywords": ["holidays", "halloween"]
   },
   {
     "unicode": "1f608",
     "name": "smiling face with horns",
     "category": "smileys & emotion",
-    "keywords": [
-      "silly",
-      "angry",
-      "monster",
-      "devil",
-      "boys",
-      "night"
-    ]
+    "keywords": ["silly", "angry", "monster", "devil", "boys", "night"]
   },
   {
     "unicode": "1f47f",
     "name": "angry face with horns",
     "category": "smileys & emotion",
-    "keywords": [
-      "monster",
-      "devil"
-    ]
+    "keywords": ["monster", "devil"]
   },
   {
     "unicode": "1f525",
     "name": "fire",
     "category": "travel & places",
-    "keywords": [
-      "wth",
-      "hot"
-    ]
+    "keywords": ["wth", "hot"]
   },
   {
     "unicode": "1f4ab",
     "name": "dizzy",
     "category": "smileys & emotion",
-    "keywords": [
-      "star"
-    ]
+    "keywords": ["star"]
   },
   {
     "unicode": "2b50",
     "name": "star",
     "category": "travel & places",
-    "keywords": [
-      "medium",
-      "space"
-    ]
+    "keywords": ["medium", "space"]
   },
   {
     "unicode": "1f31f",
     "name": "glowing star",
     "category": "travel & places",
-    "keywords": [
-      "space"
-    ]
+    "keywords": ["space"]
   },
   {
     "unicode": "1f4a5",
     "name": "collision",
     "category": "smileys & emotion",
-    "keywords": [
-      "collision",
-      "war",
-      "blast",
-      "explosion"
-    ]
+    "keywords": ["collision", "war", "blast", "explosion"]
   },
   {
     "unicode": "1f4af",
     "name": "hundred points",
     "category": "smileys & emotion",
-    "keywords": [
-      "wow",
-      "win",
-      "perfect",
-      "parties"
-    ]
+    "keywords": ["wow", "win", "perfect", "parties"]
   },
   {
     "unicode": "1fae7",
@@ -1258,148 +1033,166 @@
     "keywords": []
   },
   {
+    "unicode": "1f573-fe0f",
+    "name": "hole",
+    "category": "smileys & emotion",
+    "keywords": ["fall"]
+  },
+  {
     "unicode": "1f38a",
     "name": "confetti ball",
     "category": "activities",
-    "keywords": [
-      "birthday",
-      "holidays",
-      "cheers",
-      "night",
-      "parties"
-    ]
+    "keywords": ["birthday", "holidays", "cheers", "night", "parties"]
+  },
+  {
+    "unicode": "1fa77",
+    "name": "pink heart",
+    "category": "smileys & emotion",
+    "keywords": ["love"]
+  },
+  {
+    "unicode": "2764-fe0f",
+    "name": "red heart",
+    "category": "smileys & emotion",
+    "keywords": ["love"]
   },
   {
     "unicode": "1f9e1",
     "name": "orange heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f49b",
     "name": "yellow heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f49a",
     "name": "green heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
+  },
+  {
+    "unicode": "1fa75",
+    "name": "cyan heart",
+    "category": "smileys & emotion",
+    "keywords": ["love"]
   },
   {
     "unicode": "1f499",
     "name": "blue heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f49c",
     "name": "purple heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
+  },
+  {
+    "unicode": "1f90e",
+    "name": "brown heart",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1fa76",
+    "name": "gray heart",
+    "category": "smileys & emotion",
+    "keywords": ["love"]
   },
   {
     "unicode": "1f5a4",
     "name": "black heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
+  },
+  {
+    "unicode": "1f90d",
+    "name": "white heart",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "2665-fe0f",
+    "name": "heart suit",
+    "category": "activities",
+    "keywords": ["card", "sign"]
   },
   {
     "unicode": "1f498",
     "name": "heart with arrow",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f49d",
     "name": "heart with ribbon",
     "category": "smileys & emotion",
-    "keywords": [
-      "love",
-      "gift"
-    ]
+    "keywords": ["love", "gift"]
   },
   {
     "unicode": "1f496",
     "name": "sparkling heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f497",
     "name": "growing heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f493",
     "name": "beating heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f49e",
     "name": "revolving hearts",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f495",
     "name": "two hearts",
     "category": "smileys & emotion",
-    "keywords": [
-      "love"
-    ]
+    "keywords": ["love"]
   },
   {
     "unicode": "1f48c",
     "name": "love letter",
     "category": "smileys & emotion",
-    "keywords": [
-      "love",
-      "envelope"
-    ]
+    "keywords": ["love", "envelope"]
   },
   {
     "unicode": "1f49f",
     "name": "heart decoration",
     "category": "smileys & emotion",
-    "keywords": [
-      "decoration",
-      "love"
-    ]
+    "keywords": ["decoration", "love"]
+  },
+  {
+    "unicode": "2763-fe0f",
+    "name": "heavy heart exclamation",
+    "category": "smileys & emotion",
+    "keywords": ["love"]
+  },
+  {
+    "unicode": "2764-fe0f-200d-1fa79",
+    "name": "mending heart",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f494",
     "name": "broken heart",
     "category": "smileys & emotion",
-    "keywords": [
-      "love",
-      "heartbreak"
-    ]
+    "keywords": ["love", "heartbreak"]
   },
   {
     "unicode": "1f48b",
@@ -1420,12 +1213,19 @@
     "unicode": "1f9e0",
     "name": "brain",
     "category": "people & body",
-    "keywords": [
-      "think",
-      "reflect",
-      "einstein",
-      "science"
-    ]
+    "keywords": ["think", "reflect", "einstein", "science"]
+  },
+  {
+    "unicode": "1fac0",
+    "name": "anatomical heart",
+    "category": "people & body",
+    "keywords": ["science"]
+  },
+  {
+    "unicode": "1fac1",
+    "name": "lungs",
+    "category": "people & body",
+    "keywords": ["science"]
   },
   {
     "unicode": "1fa78",
@@ -1437,44 +1237,67 @@
     "unicode": "1f9a0",
     "name": "microbe",
     "category": "animals & nature",
-    "keywords": []
+    "keywords": ["science"]
+  },
+  {
+    "unicode": "1f9b7",
+    "name": "tooth",
+    "category": "people & body",
+    "keywords": ["bones"]
+  },
+  {
+    "unicode": "1f9b4",
+    "name": "bone",
+    "category": "people & body",
+    "keywords": ["science"]
   },
   {
     "unicode": "1f480",
     "name": "skull",
     "category": "smileys & emotion",
-    "keywords": [
-      "dead",
-      "halloween"
-    ]
+    "keywords": ["dead", "halloween"]
   },
   {
     "unicode": "1f440",
     "name": "eyes",
     "category": "people & body",
-    "keywords": [
-      "look"
-    ]
+    "keywords": ["look"]
+  },
+  {
+    "unicode": "1f441-fe0f",
+    "name": "eye",
+    "category": "people & body",
+    "keywords": ["look"]
+  },
+  {
+    "unicode": "1fae6",
+    "name": "lip bite",
+    "category": "people & body",
+    "keywords": ["sexy", "lips"]
+  },
+  {
+    "unicode": "1f44d",
+    "name": "thumbs up",
+    "category": "people & body",
+    "keywords": ["good"]
+  },
+  {
+    "unicode": "1f937",
+    "name": "shrug",
+    "category": "people & body",
+    "keywords": ["idk"]
   },
   {
     "unicode": "1f490",
     "name": "bouquet",
     "category": "animals & nature",
-    "keywords": [
-      "rip",
-      "condolence"
-    ]
+    "keywords": ["rip", "condolence"]
   },
   {
     "unicode": "1f339",
     "name": "rose",
     "category": "animals & nature",
-    "keywords": [
-      "rip",
-      "condolence",
-      "beautiful",
-      "love"
-    ]
+    "keywords": ["rip", "condolence", "beautiful", "love"]
   },
   {
     "unicode": "1f33a",
@@ -1486,10 +1309,7 @@
     "unicode": "1f337",
     "name": "tulip",
     "category": "animals & nature",
-    "keywords": [
-      "beautiful",
-      "love"
-    ]
+    "keywords": ["beautiful", "love"]
   },
   {
     "unicode": "1f338",
@@ -1504,13 +1324,16 @@
     "keywords": []
   },
   {
+    "unicode": "1f3f5-fe0f",
+    "name": "rosette",
+    "category": "animals & nature",
+    "keywords": []
+  },
+  {
     "unicode": "1f33b",
     "name": "sunflower",
     "category": "animals & nature",
-    "keywords": [
-      "farm",
-      "field"
-    ]
+    "keywords": ["farm", "field"]
   },
   {
     "unicode": "1f33c",
@@ -1528,25 +1351,19 @@
     "unicode": "1f344",
     "name": "mushroom",
     "category": "food & drink",
-    "keywords": [
-      "drugs"
-    ]
+    "keywords": ["drugs"]
   },
   {
     "unicode": "1f331",
     "name": "seedling",
     "category": "animals & nature",
-    "keywords": [
-      "leaf"
-    ]
+    "keywords": ["leaf"]
   },
   {
     "unicode": "1f33f",
     "name": "herb",
     "category": "animals & nature",
-    "keywords": [
-      "leaf"
-    ]
+    "keywords": ["leaf"]
   },
   {
     "unicode": "1f343",
@@ -1558,10 +1375,7 @@
     "unicode": "1f340",
     "name": "four leaf clover",
     "category": "animals & nature",
-    "keywords": [
-      "luck",
-      "lucky"
-    ]
+    "keywords": ["luck", "lucky"]
   },
   {
     "unicode": "1fab4",
@@ -1573,30 +1387,19 @@
     "unicode": "1f335",
     "name": "cactus",
     "category": "animals & nature",
-    "keywords": [
-      "desert",
-      "dry"
-    ]
+    "keywords": ["desert", "dry"]
   },
   {
     "unicode": "1f334",
     "name": "palm tree",
     "category": "animals & nature",
-    "keywords": [
-      "tropical",
-      "holidays",
-      "sun",
-      "island",
-      "isle"
-    ]
+    "keywords": ["tropical", "holidays", "sun", "island", "isle"]
   },
   {
     "unicode": "1f333",
     "name": "deciduous tree",
     "category": "animals & nature",
-    "keywords": [
-      "wood"
-    ]
+    "keywords": ["wood"]
   },
   {
     "unicode": "1f332",
@@ -1633,40 +1436,43 @@
     "unicode": "26c4",
     "name": "snowman without snow",
     "category": "travel & places",
-    "keywords": [
-      "cold",
-      "winter",
-      "snow",
-      "holidays"
-    ]
+    "keywords": ["cold", "winter", "snow", "holidays"]
   },
   {
     "unicode": "1f30a",
     "name": "water wave",
     "category": "travel & places",
-    "keywords": [
-      "ship",
-      "boat",
-      "tropical",
-      "swim"
-    ]
+    "keywords": ["ship", "boat", "tropical", "swim"]
+  },
+  {
+    "unicode": "1f32c-fe0f",
+    "name": "wind face",
+    "category": "travel & places",
+    "keywords": []
   },
   {
     "unicode": "1f300",
     "name": "cyclone",
     "category": "travel & places",
-    "keywords": [
-      "drugs"
-    ]
+    "keywords": ["drugs"]
+  },
+  {
+    "unicode": "1f32a-fe0f",
+    "name": "tornado",
+    "category": "travel & places",
+    "keywords": ["disaster", "catastrophe"]
   },
   {
     "unicode": "1f30b",
     "name": "volcano",
     "category": "travel & places",
-    "keywords": [
-      "fire",
-      "wash"
-    ]
+    "keywords": ["fire", "wash"]
+  },
+  {
+    "unicode": "1f3d6-fe0f",
+    "name": "beach with umbrella",
+    "category": "travel & places",
+    "keywords": ["vacation", "holidays", "sun", "sea"]
   },
   {
     "unicode": "26c5",
@@ -1675,13 +1481,34 @@
     "keywords": []
   },
   {
+    "unicode": "2601-fe0f",
+    "name": "cloud",
+    "category": "travel & places",
+    "keywords": ["rain"]
+  },
+  {
+    "unicode": "1f327-fe0f",
+    "name": "cloud with rain",
+    "category": "travel & places",
+    "keywords": []
+  },
+  {
+    "unicode": "1f329-fe0f",
+    "name": "cloud with lightning",
+    "category": "travel & places",
+    "keywords": []
+  },
+  {
     "unicode": "1f4a7",
     "name": "droplet",
     "category": "travel & places",
-    "keywords": [
-      "weather",
-      "rain"
-    ]
+    "keywords": ["weather", "rain"]
+  },
+  {
+    "unicode": "2602-fe0f",
+    "name": "umbrella",
+    "category": "travel & places",
+    "keywords": ["rain", "accessories"]
   },
   {
     "unicode": "26a1",
@@ -1693,10 +1520,13 @@
     "unicode": "1f308",
     "name": "rainbow",
     "category": "travel & places",
-    "keywords": [
-      "gay",
-      "rain"
-    ]
+    "keywords": ["gay", "rain"]
+  },
+  {
+    "unicode": "2604-fe0f",
+    "name": "comet",
+    "category": "travel & places",
+    "keywords": ["disaster", "catastrophe"]
   },
   {
     "unicode": "1fa90",
@@ -1708,50 +1538,31 @@
     "unicode": "1f30d",
     "name": "globe showing Europe-Africa",
     "category": "travel & places",
-    "keywords": [
-      "earth",
-      "vacation",
-      "holidays"
-    ]
+    "keywords": ["earth", "vacation", "holidays"]
   },
   {
     "unicode": "1f648",
     "name": "see-no-evil monkey",
     "category": "smileys & emotion",
-    "keywords": [
-      "eyes",
-      "hide and seek",
-      "hide",
-      "blind"
-    ]
+    "keywords": ["eyes", "hide and seek", "hide", "blind"]
   },
   {
     "unicode": "1f435",
     "name": "monkey face",
     "category": "animals & nature",
-    "keywords": [
-      "jungle"
-    ]
+    "keywords": ["jungle"]
   },
   {
     "unicode": "1f981",
     "name": "lion face",
     "category": "animals & nature",
-    "keywords": [
-      "roar",
-      "cat",
-      "jungle"
-    ]
+    "keywords": ["roar", "cat", "jungle"]
   },
   {
     "unicode": "1f42f",
     "name": "tiger face",
     "category": "animals & nature",
-    "keywords": [
-      "roar",
-      "cat",
-      "jungle"
-    ]
+    "keywords": ["roar", "cat", "jungle"]
   },
   {
     "unicode": "1f431",
@@ -1763,66 +1574,49 @@
     "unicode": "1f436",
     "name": "dog face",
     "category": "animals & nature",
-    "keywords": [
-      "pug"
-    ]
+    "keywords": ["pug"]
   },
   {
     "unicode": "1f43a",
     "name": "wolf face",
     "category": "animals & nature",
-    "keywords": [
-      "roar"
-    ]
+    "keywords": ["roar"]
   },
   {
     "unicode": "1f43b",
     "name": "bear face",
     "category": "animals & nature",
-    "keywords": [
-      "forest"
-    ]
+    "keywords": ["forest"]
   },
   {
     "unicode": "1f428",
     "name": "koala",
     "category": "animals & nature",
-    "keywords": [
-      "jungle"
-    ]
+    "keywords": ["jungle"]
   },
   {
     "unicode": "1f43c",
     "name": "panda face",
     "category": "animals & nature",
-    "keywords": [
-      "jungle"
-    ]
+    "keywords": ["jungle"]
   },
   {
     "unicode": "1f42d",
     "name": "mouse face",
     "category": "animals & nature",
-    "keywords": [
-      "rodent"
-    ]
+    "keywords": ["rodent"]
   },
   {
     "unicode": "1f430",
     "name": "rabbit face",
     "category": "animals & nature",
-    "keywords": [
-      "bunny",
-      "rodent"
-    ]
+    "keywords": ["bunny", "rodent"]
   },
   {
     "unicode": "1f98a",
     "name": "fox face",
     "category": "animals & nature",
-    "keywords": [
-      "clever"
-    ]
+    "keywords": ["clever"]
   },
   {
     "unicode": "1f99d",
@@ -1834,41 +1628,31 @@
     "unicode": "1f437",
     "name": "pig face",
     "category": "animals & nature",
-    "keywords": [
-      "farm"
-    ]
+    "keywords": ["farm"]
   },
   {
     "unicode": "1f984",
     "name": "unicorn face",
     "category": "animals & nature",
-    "keywords": [
-      "fun"
-    ]
+    "keywords": ["fun"]
   },
   {
     "unicode": "1f422",
     "name": "turtle",
     "category": "animals & nature",
-    "keywords": [
-      "slow"
-    ]
+    "keywords": ["slow"]
   },
   {
     "unicode": "1f429",
     "name": "poodle",
     "category": "animals & nature",
-    "keywords": [
-      "luxury"
-    ]
+    "keywords": ["luxury"]
   },
   {
     "unicode": "1f410",
     "name": "goat",
     "category": "animals & nature",
-    "keywords": [
-      "farm"
-    ]
+    "keywords": ["farm"]
   },
   {
     "unicode": "1f98c",
@@ -1898,81 +1682,67 @@
     "unicode": "1f987",
     "name": "bat",
     "category": "animals & nature",
-    "keywords": [
-      "batman"
-    ]
+    "keywords": ["batman"]
   },
   {
     "unicode": "1f989",
     "name": "owl",
     "category": "animals & nature",
-    "keywords": [
-      "night"
-    ]
+    "keywords": ["night", "bird"]
   },
   {
     "unicode": "1f426",
     "name": "bird",
     "category": "animals & nature",
-    "keywords": [
-      "fly"
-    ]
+    "keywords": ["fly"]
   },
   {
     "unicode": "1f414",
     "name": "chicken",
     "category": "animals & nature",
-    "keywords": [
-      "farm",
-      "kfc"
-    ]
+    "keywords": ["farm", "kfc", "bird"]
+  },
+  {
+    "unicode": "1fabf",
+    "name": "goose",
+    "category": "animals & nature",
+    "keywords": ["farm", "kfc", "honk", "bird"]
+  },
+  {
+    "unicode": "1f54a-fe0f",
+    "name": "dove",
+    "category": "animals & nature",
+    "keywords": ["bird"]
   },
   {
     "unicode": "1f9a9",
     "name": "flamingo",
     "category": "animals & nature",
-    "keywords": []
+    "keywords": ["bird"]
   },
   {
     "unicode": "1f427",
     "name": "penguin",
     "category": "animals & nature",
-    "keywords": [
-      "north pole",
-      "artic"
-    ]
+    "keywords": ["north pole", "artic", "bird"]
   },
   {
     "unicode": "1f988",
     "name": "shark",
     "category": "animals & nature",
-    "keywords": [
-      "sea"
-    ]
-  },
-  {
-    "unicode": "1f42c",
-    "name": "dolphin",
-    "category": "animals & nature",
-    "keywords": [
-      "sea"
-    ]
+    "keywords": ["sea"]
   },
   {
     "unicode": "1f433",
     "name": "spouting whale",
     "category": "animals & nature",
-    "keywords": [
-      "sea"
-    ]
+    "keywords": ["sea"]
   },
   {
     "unicode": "1f41f",
     "name": "fish",
     "category": "animals & nature",
-    "keywords": [
-      "sea"
-    ]
+    "keywords": ["sea"]
   },
   {
     "unicode": "1f99e",
@@ -1984,18 +1754,13 @@
     "unicode": "1f980",
     "name": "crab",
     "category": "food & drink",
-    "keywords": [
-      "sea",
-      "beach"
-    ]
+    "keywords": ["sea", "beach"]
   },
   {
     "unicode": "1f419",
     "name": "octopus",
     "category": "animals & nature",
-    "keywords": [
-      "sea"
-    ]
+    "keywords": ["sea"]
   },
   {
     "unicode": "1fab8",
@@ -2007,34 +1772,31 @@
     "unicode": "1f982",
     "name": "scorpion",
     "category": "animals & nature",
-    "keywords": [
-      "insect"
-    ]
+    "keywords": ["insect"]
+  },
+  {
+    "unicode": "1f577-fe0f",
+    "name": "spider",
+    "category": "animals & nature",
+    "keywords": ["insect", "spiderman"]
   },
   {
     "unicode": "1f41a",
     "name": "spiral shell",
     "category": "animals & nature",
-    "keywords": [
-      "sea"
-    ]
+    "keywords": ["sea"]
   },
   {
     "unicode": "1f40c",
     "name": "snail",
     "category": "animals & nature",
-    "keywords": [
-      "insect",
-      "slow"
-    ]
+    "keywords": ["insect", "slow"]
   },
   {
     "unicode": "1f997",
     "name": "cricket",
     "category": "animals & nature",
-    "keywords": [
-      "insect"
-    ]
+    "keywords": ["insect"]
   },
   {
     "unicode": "1fab2",
@@ -2052,26 +1814,19 @@
     "unicode": "1f41d",
     "name": "honeybee",
     "category": "animals & nature",
-    "keywords": [
-      "insect"
-    ]
+    "keywords": ["insect"]
   },
   {
     "unicode": "1f41e",
     "name": "lady beetle",
     "category": "animals & nature",
-    "keywords": [
-      "insect"
-    ]
+    "keywords": ["insect"]
   },
   {
     "unicode": "1f98b",
     "name": "butterfly",
     "category": "animals & nature",
-    "keywords": [
-      "summer",
-      "insect"
-    ]
+    "keywords": ["summer", "insect"]
   },
   {
     "unicode": "1f43e",
@@ -2113,34 +1868,25 @@
     "unicode": "1f34d",
     "name": "pineapple",
     "category": "food & drink",
-    "keywords": [
-      "tropical"
-    ]
+    "keywords": ["tropical"]
   },
   {
     "unicode": "1f34c",
     "name": "banana",
     "category": "food & drink",
-    "keywords": [
-      "penis",
-      "sex"
-    ]
+    "keywords": ["penis", "sex"]
   },
   {
     "unicode": "1f34b",
     "name": "lemon",
     "category": "food & drink",
-    "keywords": [
-      "acid"
-    ]
+    "keywords": ["acid"]
   },
   {
     "unicode": "1f348",
     "name": "melon",
     "category": "food & drink",
-    "keywords": [
-      "boobs"
-    ]
+    "keywords": ["boobs"]
   },
   {
     "unicode": "1f350",
@@ -2176,18 +1922,19 @@
     "unicode": "1f965",
     "name": "coconut",
     "category": "food & drink",
-    "keywords": [
-      "tropical"
-    ]
+    "keywords": ["tropical"]
   },
   {
     "unicode": "1f345",
     "name": "tomato",
     "category": "food & drink",
-    "keywords": [
-      "vegetable",
-      "red"
-    ]
+    "keywords": ["vegetable", "red"]
+  },
+  {
+    "unicode": "1f336-fe0f",
+    "name": "hot pepper",
+    "category": "food & drink",
+    "keywords": []
   },
   {
     "unicode": "1f955",
@@ -2199,10 +1946,7 @@
     "unicode": "1f360",
     "name": "roasted sweet potato",
     "category": "food & drink",
-    "keywords": [
-      "yam",
-      "vegetable"
-    ]
+    "keywords": ["yam", "vegetable"]
   },
   {
     "unicode": "1f9c5",
@@ -2214,9 +1958,7 @@
     "unicode": "1f33d",
     "name": "ear of corn",
     "category": "food & drink",
-    "keywords": [
-      "maize"
-    ]
+    "keywords": ["maize"]
   },
   {
     "unicode": "1f966",
@@ -2240,10 +1982,7 @@
     "unicode": "1f951",
     "name": "avocado",
     "category": "food & drink",
-    "keywords": [
-      "lipid",
-      "fat"
-    ]
+    "keywords": ["lipid", "fat"]
   },
   {
     "unicode": "1f9c4",
@@ -2273,9 +2012,7 @@
     "unicode": "1f95c",
     "name": "peanuts",
     "category": "food & drink",
-    "keywords": [
-      "fat"
-    ]
+    "keywords": ["fat"]
   },
   {
     "unicode": "1f35e",
@@ -2293,9 +2030,7 @@
     "unicode": "1f950",
     "name": "croissant",
     "category": "food & drink",
-    "keywords": [
-      "france"
-    ]
+    "keywords": ["france"]
   },
   {
     "unicode": "1f96f",
@@ -2313,18 +2048,13 @@
     "unicode": "1f373",
     "name": "cooking",
     "category": "food & drink",
-    "keywords": [
-      "cook",
-      "restaurant"
-    ]
+    "keywords": ["cook", "restaurant"]
   },
   {
     "unicode": "1f9c0",
     "name": "cheese wedge",
     "category": "food & drink",
-    "keywords": [
-      "mouse"
-    ]
+    "keywords": ["mouse"]
   },
   {
     "unicode": "1f969",
@@ -2342,22 +2072,13 @@
     "unicode": "1f354",
     "name": "hamburger",
     "category": "food & drink",
-    "keywords": [
-      "usa",
-      "america",
-      "fat",
-      "macdonald"
-    ]
+    "keywords": ["usa", "america", "fat", "macdonald"]
   },
   {
     "unicode": "1f32d",
     "name": "hot dog",
     "category": "food & drink",
-    "keywords": [
-      "usa",
-      "america",
-      "fat"
-    ]
+    "keywords": ["usa", "america", "fat"]
   },
   {
     "unicode": "1f96a",
@@ -2375,13 +2096,7 @@
     "unicode": "1f35f",
     "name": "french fries",
     "category": "food & drink",
-    "keywords": [
-      "chips",
-      "potato",
-      "america",
-      "fat",
-      "macdonald"
-    ]
+    "keywords": ["chips", "potato", "america", "fat", "macdonald"]
   },
   {
     "unicode": "1fad4",
@@ -2393,18 +2108,13 @@
     "unicode": "1f32e",
     "name": "taco",
     "category": "food & drink",
-    "keywords": [
-      "mexico",
-      "otacos"
-    ]
+    "keywords": ["mexico", "otacos"]
   },
   {
     "unicode": "1f32f",
     "name": "burrito",
     "category": "food & drink",
-    "keywords": [
-      "mexico"
-    ]
+    "keywords": ["mexico"]
   },
   {
     "unicode": "1f959",
@@ -2428,19 +2138,13 @@
     "unicode": "1f35d",
     "name": "spaghetti",
     "category": "food & drink",
-    "keywords": [
-      "noodles",
-      "pasta",
-      "italy"
-    ]
+    "keywords": ["noodles", "pasta", "italy"]
   },
   {
     "unicode": "1f96b",
     "name": "canned food",
     "category": "food & drink",
-    "keywords": [
-      "soda"
-    ]
+    "keywords": ["soda"]
   },
   {
     "unicode": "1fad5",
@@ -2458,9 +2162,7 @@
     "unicode": "1f957",
     "name": "green salad",
     "category": "food & drink",
-    "keywords": [
-      "healthy"
-    ]
+    "keywords": ["healthy"]
   },
   {
     "unicode": "1f372",
@@ -2478,19 +2180,13 @@
     "unicode": "1f35c",
     "name": "steaming bowl",
     "category": "food & drink",
-    "keywords": [
-      "noodles",
-      "ramen",
-      "japan"
-    ]
+    "keywords": ["noodles", "ramen", "japan"]
   },
   {
     "unicode": "1f363",
     "name": "sushi",
     "category": "food & drink",
-    "keywords": [
-      "japan"
-    ]
+    "keywords": ["japan"]
   },
   {
     "unicode": "1f364",
@@ -2502,46 +2198,31 @@
     "unicode": "1f35a",
     "name": "cooked rice",
     "category": "food & drink",
-    "keywords": [
-      "sushi",
-      "japan"
-    ]
+    "keywords": ["sushi", "japan"]
   },
   {
     "unicode": "1f371",
     "name": "bento box",
     "category": "food & drink",
-    "keywords": [
-      "sushi",
-      "japan"
-    ]
+    "keywords": ["sushi", "japan"]
   },
   {
     "unicode": "1f359",
     "name": "rice ball",
     "category": "food & drink",
-    "keywords": [
-      "sushi",
-      "japan"
-    ]
+    "keywords": ["sushi", "japan"]
   },
   {
     "unicode": "1f358",
     "name": "rice cracker",
     "category": "food & drink",
-    "keywords": [
-      "sushi"
-    ]
+    "keywords": ["sushi"]
   },
   {
     "unicode": "1f365",
     "name": "fish cake with swirl",
     "category": "food & drink",
-    "keywords": [
-      "design",
-      "sushi",
-      "japan"
-    ]
+    "keywords": ["design", "sushi", "japan"]
   },
   {
     "unicode": "1f960",
@@ -2553,46 +2234,31 @@
     "unicode": "1f367",
     "name": "shaved ice",
     "category": "food & drink",
-    "keywords": [
-      "dessert"
-    ]
+    "keywords": ["dessert"]
   },
   {
     "unicode": "1f368",
     "name": "ice cream",
     "category": "food & drink",
-    "keywords": [
-      "dessert"
-    ]
+    "keywords": ["dessert"]
   },
   {
     "unicode": "1f366",
     "name": "soft ice cream",
     "category": "food & drink",
-    "keywords": [
-      "dessert"
-    ]
+    "keywords": ["dessert"]
   },
   {
     "unicode": "1f370",
     "name": "shortcake",
     "category": "food & drink",
-    "keywords": [
-      "dessert",
-      "sugar",
-      "partie",
-      "birthday"
-    ]
+    "keywords": ["dessert", "sugar", "partie", "birthday"]
   },
   {
     "unicode": "1f382",
     "name": "birthday cake",
     "category": "food & drink",
-    "keywords": [
-      "dessert",
-      "sugar",
-      "partie"
-    ]
+    "keywords": ["dessert", "sugar", "partie"]
   },
   {
     "unicode": "1f9c1",
@@ -2604,37 +2270,25 @@
     "unicode": "1f36c",
     "name": "candy",
     "category": "food & drink",
-    "keywords": [
-      "sugar",
-      "halloween",
-      "lollipop"
-    ]
+    "keywords": ["sugar", "halloween", "lollipop"]
   },
   {
     "unicode": "1f36b",
     "name": "chocolate bar",
     "category": "food & drink",
-    "keywords": [
-      "sugar"
-    ]
+    "keywords": ["sugar"]
   },
   {
     "unicode": "1f369",
     "name": "doughnut",
     "category": "food & drink",
-    "keywords": [
-      "dessert",
-      "sugar"
-    ]
+    "keywords": ["dessert", "sugar"]
   },
   {
     "unicode": "1f36a",
     "name": "cookie",
     "category": "food & drink",
-    "keywords": [
-      "dessert",
-      "sugar"
-    ]
+    "keywords": ["dessert", "sugar"]
   },
   {
     "unicode": "1f9c2",
@@ -2646,11 +2300,7 @@
     "unicode": "1f37f",
     "name": "popcorn",
     "category": "food & drink",
-    "keywords": [
-      "movie",
-      "theater",
-      "partie"
-    ]
+    "keywords": ["movie", "theater", "partie"]
   },
   {
     "unicode": "1f9cb",
@@ -2668,10 +2318,7 @@
     "unicode": "1f375",
     "name": "teacup without handle",
     "category": "food & drink",
-    "keywords": [
-      "caffeine",
-      "morning"
-    ]
+    "keywords": ["caffeine", "morning"]
   },
   {
     "unicode": "2615",
@@ -2689,11 +2336,13 @@
     "unicode": "1f379",
     "name": "tropical drink",
     "category": "food & drink",
-    "keywords": [
-      "holidays",
-      "cocktail",
-      "alcohol"
-    ]
+    "keywords": ["holidays", "cocktail", "alcohol"]
+  },
+  {
+    "unicode": "1f37d-fe0f",
+    "name": "fork and knife with plate",
+    "category": "food & drink",
+    "keywords": ["eat", "restaurant"]
   },
   {
     "unicode": "1f6d1",
@@ -2705,10 +2354,7 @@
     "unicode": "1f6a8",
     "name": "police car light",
     "category": "travel & places",
-    "keywords": [
-      "light",
-      "911"
-    ]
+    "keywords": ["light", "911"]
   },
   {
     "unicode": "1f6df",
@@ -2720,85 +2366,67 @@
     "unicode": "2693",
     "name": "anchor",
     "category": "travel & places",
-    "keywords": [
-      "boat"
-    ]
+    "keywords": ["boat"]
   },
   {
     "unicode": "1f697",
     "name": "automobile",
     "category": "travel & places",
-    "keywords": [
-      "transportation",
-      "car"
-    ]
+    "keywords": ["transportation", "car"]
+  },
+  {
+    "unicode": "1f3ce-fe0f",
+    "name": "racecar",
+    "category": "travel & places",
+    "keywords": ["transportation", "car"]
   },
   {
     "unicode": "1f695",
     "name": "taxi",
     "category": "travel & places",
-    "keywords": [
-      "transportation",
-      "car"
-    ]
+    "keywords": ["transportation", "car"]
   },
   {
     "unicode": "1f68c",
     "name": "bus",
     "category": "travel & places",
-    "keywords": [
-      "transportation",
-      "train",
-      "office",
-      "school"
-    ]
+    "keywords": ["transportation", "train", "office", "school"]
   },
   {
     "unicode": "1f682",
     "name": "locomotive",
     "category": "travel & places",
-    "keywords": [
-      "transportation",
-      "train"
-    ]
+    "keywords": ["transportation", "train"]
   },
   {
     "unicode": "1f6f8",
     "name": "flying saucer",
     "category": "travel & places",
-    "keywords": [
-      "space",
-      "extraterrestrial",
-      "alien"
-    ]
+    "keywords": ["space", "extraterrestrial", "alien"]
   },
   {
     "unicode": "1f680",
     "name": "rocket",
     "category": "travel & places",
-    "keywords": [
-      "space",
-      "fly",
-      "blast"
-    ]
+    "keywords": ["space", "fly", "blast"]
+  },
+  {
+    "unicode": "2708-fe0f",
+    "name": "airplane",
+    "category": "travel & places",
+    "keywords": ["airplane", "airport", "fly"]
   },
   {
     "unicode": "1f3a2",
     "name": "roller coaster",
     "category": "travel & places",
-    "keywords": [
-      "vacation",
-      "carousel"
-    ]
+    "keywords": ["vacation", "carousel"]
   },
   {
     "unicode": "1f3a1",
     "name": "ferris wheel",
     "category": "travel & places",
-    "keywords": [
-      "vacation",
-      "carousel"
-    ]
+    "keywords": ["vacation", "carousel"]
   },
   {
     "unicode": "1f3aa",
@@ -2807,57 +2435,70 @@
     "keywords": []
   },
   {
+    "unicode": "1f3db-fe0f",
+    "name": "classical building",
+    "category": "travel & places",
+    "keywords": []
+  },
+  {
+    "unicode": "1f3df-fe0f",
+    "name": "stadium",
+    "category": "travel & places",
+    "keywords": ["sport", "foot", "football", "rugby", "athletics"]
+  },
+  {
     "unicode": "1f3e0",
     "name": "house",
     "category": "travel & places",
-    "keywords": [
-      "home"
-    ]
+    "keywords": ["home"]
+  },
+  {
+    "unicode": "1f3d5-fe0f",
+    "name": "camping",
+    "category": "travel & places",
+    "keywords": ["vacation", "holidays"]
   },
   {
     "unicode": "1f307",
     "name": "sunset",
     "category": "travel & places",
-    "keywords": [
-      "building",
-      "sky",
-      "vacation"
-    ]
+    "keywords": ["building", "sky", "vacation"]
+  },
+  {
+    "unicode": "1f3dd-fe0f",
+    "name": "desert island",
+    "category": "travel & places",
+    "keywords": ["vacation", "holidays", "beach"]
   },
   {
     "unicode": "1f388",
     "name": "balloon",
     "category": "activities",
-    "keywords": [
-      "birthday",
-      "parties"
-    ]
+    "keywords": ["birthday", "parties"]
   },
   {
     "unicode": "1f380",
     "name": "ribbon",
     "category": "activities",
-    "keywords": [
-      "gift",
-      "birthday"
-    ]
+    "keywords": ["gift", "birthday"]
   },
   {
     "unicode": "1f381",
     "name": "wrapped gift",
     "category": "activities",
-    "keywords": [
-      "birthday",
-      "holidays",
-      "christmas",
-      "parties"
-    ]
+    "keywords": ["birthday", "holidays", "christmas", "parties"]
   },
   {
     "unicode": "1faa9",
     "name": "mirror ball",
     "category": "activities",
     "keywords": []
+  },
+  {
+    "unicode": "1f397-fe0f",
+    "name": "reminder ribbon",
+    "category": "activities",
+    "keywords": ["birthday", "holidays", "christmas", "parties"]
   },
   {
     "unicode": "1f947",
@@ -2877,27 +2518,13 @@
     "unicode": "1f948",
     "name": "2nd place medal",
     "category": "activities",
-    "keywords": [
-      "game",
-      "award",
-      "win",
-      "parties",
-      "competition",
-      "tournament"
-    ]
+    "keywords": ["game", "award", "win", "parties", "competition", "tournament"]
   },
   {
     "unicode": "1f949",
     "name": "3rd place medal",
     "category": "activities",
-    "keywords": [
-      "game",
-      "award",
-      "win",
-      "parties",
-      "competition",
-      "tournament"
-    ]
+    "keywords": ["game", "award", "win", "parties", "competition", "tournament"]
   },
   {
     "unicode": "1f3c5",
@@ -2912,6 +2539,12 @@
       "competition",
       "tournament"
     ]
+  },
+  {
+    "unicode": "1f396-fe0f",
+    "name": "military medal",
+    "category": "activities",
+    "keywords": ["war"]
   },
   {
     "unicode": "1f3c6",
@@ -2931,22 +2564,13 @@
     "unicode": "26bd",
     "name": "soccer ball",
     "category": "activities",
-    "keywords": [
-      "game",
-      "football",
-      "foot",
-      "messi",
-      "ronaldo"
-    ]
+    "keywords": ["game", "football", "foot", "messi", "ronaldo"]
   },
   {
     "unicode": "26be",
     "name": "baseball",
     "category": "activities",
-    "keywords": [
-      "game",
-      "ball"
-    ]
+    "keywords": ["game", "ball"]
   },
   {
     "unicode": "1f94e",
@@ -2958,71 +2582,43 @@
     "unicode": "1f3c0",
     "name": "basketball",
     "category": "activities",
-    "keywords": [
-      "hoop",
-      "game",
-      "ball"
-    ]
+    "keywords": ["hoop", "game", "ball"]
   },
   {
     "unicode": "1f3d0",
     "name": "volleyball",
     "category": "activities",
-    "keywords": [
-      "game",
-      "ball"
-    ]
+    "keywords": ["game", "ball"]
   },
   {
     "unicode": "1f3c8",
     "name": "american football",
     "category": "activities",
-    "keywords": [
-      "america",
-      "game",
-      "ball",
-      "usa"
-    ]
+    "keywords": ["america", "game", "ball", "usa"]
   },
   {
     "unicode": "1f3c9",
     "name": "rugby football",
     "category": "activities",
-    "keywords": [
-      "game",
-      "ball"
-    ]
+    "keywords": ["game", "ball"]
   },
   {
     "unicode": "1f3be",
     "name": "tennis",
     "category": "activities",
-    "keywords": [
-      "racquet",
-      "ball",
-      "game",
-      "nadal",
-      "federer"
-    ]
+    "keywords": ["racquet", "ball", "game", "nadal", "federer"]
   },
   {
     "unicode": "1f945",
     "name": "goal net",
     "category": "activities",
-    "keywords": [
-      "football",
-      "foot"
-    ]
+    "keywords": ["football", "foot"]
   },
   {
     "unicode": "1f3f8",
     "name": "badminton",
     "category": "activities",
-    "keywords": [
-      "racket",
-      "bat",
-      "racquet"
-    ]
+    "keywords": ["racket", "bat", "racquet"]
   },
   {
     "unicode": "1f94d",
@@ -3034,25 +2630,19 @@
     "unicode": "1f3cf",
     "name": "cricket game",
     "category": "activities",
-    "keywords": [
-      "bat"
-    ]
+    "keywords": ["bat"]
   },
   {
     "unicode": "1f3d1",
     "name": "field hockey",
     "category": "activities",
-    "keywords": [
-      "stick"
-    ]
+    "keywords": ["stick"]
   },
   {
     "unicode": "1f3d2",
     "name": "ice hockey",
     "category": "activities",
-    "keywords": [
-      "puck"
-    ]
+    "keywords": ["puck"]
   },
   {
     "unicode": "1f94c",
@@ -3070,10 +2660,13 @@
     "unicode": "1f3bf",
     "name": "skis",
     "category": "activities",
-    "keywords": [
-      "boot",
-      "cold"
-    ]
+    "keywords": ["boot", "cold"]
+  },
+  {
+    "unicode": "26f8-fe0f",
+    "name": "ice skate",
+    "category": "activities",
+    "keywords": []
   },
   {
     "unicode": "1f6fc",
@@ -3097,27 +2690,19 @@
     "unicode": "26f3",
     "name": "flag in hole",
     "category": "activities",
-    "keywords": [
-      "game",
-      "vacation",
-      "golf"
-    ]
+    "keywords": ["game", "vacation", "golf"]
   },
   {
     "unicode": "1f3af",
     "name": "direct hit",
     "category": "activities",
-    "keywords": [
-      "target"
-    ]
+    "keywords": ["target"]
   },
   {
     "unicode": "1f3f9",
     "name": "bow and arrow",
     "category": "objects",
-    "keywords": [
-      "weapon"
-    ]
+    "keywords": ["weapon"]
   },
   {
     "unicode": "1f94f",
@@ -3147,19 +2732,13 @@
     "unicode": "1f3bd",
     "name": "running shirt",
     "category": "activities",
-    "keywords": [
-      "runn",
-      "sash",
-      "award"
-    ]
+    "keywords": ["runn", "sash", "award"]
   },
   {
     "unicode": "1f94b",
     "name": "martial arts uniform",
     "category": "activities",
-    "keywords": [
-      "judo"
-    ]
+    "keywords": ["judo"]
   },
   {
     "unicode": "1f94a",
@@ -3171,30 +2750,25 @@
     "unicode": "1f3b1",
     "name": "pool 8 ball",
     "category": "activities",
-    "keywords": [
-      "billiard"
-    ]
+    "keywords": ["billiard"]
   },
   {
     "unicode": "1f3d3",
     "name": "ping pong",
     "category": "activities",
-    "keywords": [
-      "table tennis",
-      "racket",
-      "bat",
-      "racquet",
-      "china"
-    ]
+    "keywords": ["table tennis", "racket", "bat", "racquet", "china"]
   },
   {
     "unicode": "1f3b3",
     "name": "bowling",
     "category": "activities",
-    "keywords": [
-      "night",
-      "party"
-    ]
+    "keywords": ["night", "party"]
+  },
+  {
+    "unicode": "265f-fe0f",
+    "name": "chess pawn",
+    "category": "activities",
+    "keywords": []
   },
   {
     "unicode": "1fa80",
@@ -3212,28 +2786,19 @@
     "unicode": "1f3ae",
     "name": "video game",
     "category": "activities",
-    "keywords": [
-      "electronics",
-      "night",
-      "play"
-    ]
+    "keywords": ["electronics", "night", "play"]
   },
   {
     "unicode": "1f3b2",
     "name": "game die",
     "category": "activities",
-    "keywords": [
-      "play"
-    ]
+    "keywords": ["play"]
   },
   {
     "unicode": "1f3b0",
     "name": "slot machine",
     "category": "activities",
-    "keywords": [
-      "money",
-      "play"
-    ]
+    "keywords": ["money", "play"]
   },
   {
     "unicode": "1f3b4",
@@ -3251,26 +2816,31 @@
     "unicode": "1f0cf",
     "name": "joker",
     "category": "activities",
-    "keywords": [
-      "play",
-      "card"
-    ]
+    "keywords": ["play", "card"]
   },
   {
     "unicode": "1f4f7",
     "name": "camera",
     "category": "objects",
-    "keywords": [
-      "selfie"
-    ]
+    "keywords": ["selfie"]
   },
   {
     "unicode": "1f3a8",
     "name": "artist palette",
     "category": "activities",
-    "keywords": [
-      "draw"
-    ]
+    "keywords": ["draw"]
+  },
+  {
+    "unicode": "1f58c-fe0f",
+    "name": "paintbrush",
+    "category": "objects",
+    "keywords": ["draw"]
+  },
+  {
+    "unicode": "1f58d-fe0f",
+    "name": "crayon",
+    "category": "objects",
+    "keywords": ["write"]
   },
   {
     "unicode": "1faa1",
@@ -3294,9 +2864,7 @@
     "unicode": "1f3b9",
     "name": "musical keyboard",
     "category": "objects",
-    "keywords": [
-      "piano"
-    ]
+    "keywords": ["piano"]
   },
   {
     "unicode": "1f3b7",
@@ -3326,9 +2894,7 @@
     "unicode": "1f3bb",
     "name": "violin",
     "category": "objects",
-    "keywords": [
-      "sarcastic"
-    ]
+    "keywords": ["sarcastic"]
   },
   {
     "unicode": "1fa98",
@@ -3340,9 +2906,7 @@
     "unicode": "1f941",
     "name": "drum",
     "category": "objects",
-    "keywords": [
-      "drumsticks"
-    ]
+    "keywords": ["drumsticks"]
   },
   {
     "unicode": "1fa97",
@@ -3354,66 +2918,67 @@
     "unicode": "1f3a4",
     "name": "microphone",
     "category": "objects",
-    "keywords": [
-      "sing",
-      "singer"
-    ]
+    "keywords": ["sing", "singer"]
   },
   {
     "unicode": "1f3a7",
     "name": "headphone",
     "category": "objects",
-    "keywords": [
-      "sound"
-    ]
+    "keywords": ["sound"]
+  },
+  {
+    "unicode": "1f399-fe0f",
+    "name": "studio microphone",
+    "category": "objects",
+    "keywords": ["sing", "singer"]
   },
   {
     "unicode": "1f4fa",
     "name": "television",
     "category": "objects",
-    "keywords": [
-      "tv"
-    ]
+    "keywords": ["tv"]
+  },
+  {
+    "unicode": "1f39e-fe0f",
+    "name": "film frames",
+    "category": "objects",
+    "keywords": []
   },
   {
     "unicode": "1f3ac",
     "name": "clapper board",
     "category": "objects",
-    "keywords": [
-      "movie",
-      "actor"
-    ]
+    "keywords": ["movie", "actor"]
   },
   {
     "unicode": "1f3ad",
     "name": "performing arts",
     "category": "activities",
-    "keywords": [
-      "theatre",
-      "movie"
-    ]
+    "keywords": ["theatre", "movie"]
+  },
+  {
+    "unicode": "1f39f-fe0f",
+    "name": "admission tickets",
+    "category": "activities",
+    "keywords": []
   },
   {
     "unicode": "1f4f1",
     "name": "mobile phone",
     "category": "objects",
-    "keywords": [
-      "selfie",
-      "iphone",
-      "samsung",
-      "android",
-      "xiaomi",
-      "huawei"
-    ]
+    "keywords": ["selfie", "iphone", "samsung", "android", "xiaomi", "huawei"]
+  },
+  {
+    "unicode": "260e-fe0f",
+    "name": "telephone",
+    "category": "objects",
+    "keywords": []
   },
   {
     "unicode": "1f50b",
     "name": "battery",
     "category": "objects",
-    "keywords": [
-      "lithium",
-      "electricity"
-    ]
+    "keywords": ["lithium", "electricity"]
   },
   {
     "unicode": "1faab",
@@ -3440,13 +3005,16 @@
     "keywords": []
   },
   {
+    "unicode": "2696-fe0f",
+    "name": "balance scale",
+    "category": "objects",
+    "keywords": ["weight"]
+  },
+  {
     "unicode": "1f4a1",
     "name": "light bulb",
     "category": "objects",
-    "keywords": [
-      "idea",
-      "science"
-    ]
+    "keywords": ["idea", "science"]
   },
   {
     "unicode": "1f9fc",
@@ -3458,69 +3026,91 @@
     "unicode": "1f9e6",
     "name": "socks",
     "category": "objects",
-    "keywords": [
-      "cold",
-      "winter",
-      "foot",
-      "feet"
-    ]
+    "keywords": ["cold", "winter", "foot", "feet"]
   },
   {
     "unicode": "1f451",
     "name": "crown",
     "category": "objects",
-    "keywords": [
-      "king"
-    ]
+    "keywords": ["king"]
   },
   {
     "unicode": "1f48e",
     "name": "gem stone",
     "category": "smileys & people",
-    "keywords": [
-      "luxury"
-    ]
+    "keywords": ["luxury"]
+  },
+  {
+    "unicode": "1f6e0-fe0f",
+    "name": "hammer and wrench",
+    "category": "objects",
+    "keywords": []
+  },
+  {
+    "unicode": "26d3-fe0f",
+    "name": "chains",
+    "category": "objects",
+    "keywords": ["slavery"]
+  },
+  {
+    "unicode": "1f5d1-fe0f",
+    "name": "wastebasket",
+    "category": "objects",
+    "keywords": ["trash", "delete", "remove"]
+  },
+  {
+    "unicode": "1f58a-fe0f",
+    "name": "pen",
+    "category": "objects",
+    "keywords": ["write"]
+  },
+  {
+    "unicode": "2712-fe0f",
+    "name": "black nib",
+    "category": "objects",
+    "keywords": ["write"]
+  },
+  {
+    "unicode": "270f-fe0f",
+    "name": "pencil",
+    "category": "objects",
+    "keywords": ["write"]
   },
   {
     "unicode": "1f4da",
     "name": "books",
     "category": "objects",
-    "keywords": [
-      "book"
-    ]
+    "keywords": ["book"]
+  },
+  {
+    "unicode": "1f5c3-fe0f",
+    "name": "card file box",
+    "category": "objects",
+    "keywords": []
   },
   {
     "unicode": "1f4f0",
     "name": "newspaper",
     "category": "objects",
-    "keywords": [
-      "news"
-    ]
+    "keywords": ["news"]
   },
   {
     "unicode": "1f4e3",
     "name": "megaphone",
     "category": "objects",
-    "keywords": [
-      "cry",
-      "public"
-    ]
+    "keywords": ["cry", "public"]
   },
   {
     "unicode": "1f50e",
     "name": "magnifying glass tilted right",
     "category": "objects",
-    "keywords": [
-      "detective"
-    ]
+    "keywords": ["detective"]
   },
   {
     "unicode": "1f52e",
     "name": "crystal ball",
     "category": "activities",
-    "keywords": [
-      "seer"
-    ]
+    "keywords": ["seer"]
   },
   {
     "unicode": "1f9ff",
@@ -3529,13 +3119,16 @@
     "keywords": []
   },
   {
+    "unicode": "1f5dd-fe0f",
+    "name": "old key",
+    "category": "objects",
+    "keywords": []
+  },
+  {
     "unicode": "1f512",
     "name": "locked",
     "category": "objects",
-    "keywords": [
-      "padlock",
-      "close"
-    ]
+    "keywords": ["padlock", "close"]
   },
   {
     "unicode": "2648",
@@ -3619,25 +3212,25 @@
     "unicode": "2757",
     "name": "exclamation mark",
     "category": "symbols",
-    "keywords": [
-      "punctuation"
-    ]
+    "keywords": ["punctuation"]
   },
   {
     "unicode": "2753",
     "name": "question mark",
     "category": "symbols",
-    "keywords": [
-      "punctuation"
-    ]
+    "keywords": ["punctuation"]
+  },
+  {
+    "unicode": "2049-fe0f",
+    "name": "exclamation question mark",
+    "category": "symbols",
+    "keywords": []
   },
   {
     "unicode": "1f198",
     "name": "SOS button",
     "category": "symbols",
-    "keywords": [
-      "help"
-    ]
+    "keywords": ["help"]
   },
   {
     "unicode": "1f4f4",
@@ -3649,9 +3242,19 @@
     "unicode": "1f508",
     "name": "speaker low volume",
     "category": "objects",
-    "keywords": [
-      "alarm"
-    ]
+    "keywords": ["alarm"]
+  },
+  {
+    "unicode": "26a0-fe0f",
+    "name": "warning",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "267b-fe0f",
+    "name": "recycling symbol",
+    "category": "symbols",
+    "keywords": ["trash"]
   },
   {
     "unicode": "2705",
@@ -3693,34 +3296,49 @@
     "unicode": "1f6ae",
     "name": "litter in bin sign",
     "category": "symbols",
-    "keywords": [
-      "trash",
-      "waste"
-    ]
+    "keywords": ["trash", "waste"]
+  },
+  {
+    "unicode": "262e-fe0f",
+    "name": "peace symbol",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "262f-fe0f",
+    "name": "yin yang",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "267e-fe0f",
+    "name": "infinity",
+    "category": "symbols",
+    "keywords": ["math"]
+  },
+  {
+    "unicode": "2716-fe0f",
+    "name": "heavy multiplication x",
+    "category": "symbols",
+    "keywords": ["ko", "incoorect", "wrong", "cross"]
   },
   {
     "unicode": "2795",
     "name": "heavy plus sign",
     "category": "symbols",
-    "keywords": [
-      "math"
-    ]
+    "keywords": ["math"]
   },
   {
     "unicode": "2796",
     "name": "heavy minus sign",
     "category": "symbols",
-    "keywords": [
-      "math"
-    ]
+    "keywords": ["math"]
   },
   {
     "unicode": "2797",
     "name": "heavy division sign",
     "category": "symbols",
-    "keywords": [
-      "math"
-    ]
+    "keywords": ["math"]
   },
   {
     "unicode": "27b0",
@@ -3735,11 +3353,45 @@
     "keywords": []
   },
   {
+    "unicode": "3030-fe0f",
+    "name": "wavy dash",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "00a9-fe0f",
+    "name": "copyright",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "00ae-fe0f",
+    "name": "registered",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "2122-fe0f",
+    "name": "trade mark",
+    "category": "symbols",
+    "keywords": []
+  },
+  {
+    "unicode": "2660-fe0f",
+    "name": "spade suit",
+    "category": "activities",
+    "keywords": ["card", "sign"]
+  },
+  {
+    "unicode": "1f5ef-fe0f",
+    "name": "right anger bubble",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f4ac",
     "name": "speech balloon",
     "category": "smileys & emotion",
-    "keywords": [
-      "speek"
-    ]
+    "keywords": ["speek"]
   }
 ]

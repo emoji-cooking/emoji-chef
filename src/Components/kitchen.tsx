@@ -2,6 +2,7 @@ import { ImageListItem, Box, Container, Menu, MenuItem } from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { imageListItemClasses } from "@mui/material/ImageListItem";
 import DownloadIcon from "@mui/icons-material/Download";
+import "./kitchen.css";
 import React from "react";
 import JSZip from "jszip";
 import axios from "axios";
@@ -142,12 +143,15 @@ export default class Kitchen extends React.Component<
 
     return (
       <div>
-        <input
-          type="text"
-          value={this.state.searchQuery}
-          onChange={this.handleSearchQueryChange}
-          placeholder="Search emojis by name..."
-        ></input>
+        <div className="header">
+          <input
+            type="text"
+            value={this.state.searchQuery}
+            onChange={this.handleSearchQueryChange}
+            placeholder="Search emojis by name..."
+            className="search-bar"
+          ></input>
+        </div>
         <div style={{ height: "calc(100vh - 200px)" }}>
           <Container maxWidth="xl">
             <Box
@@ -339,7 +343,7 @@ export default class Kitchen extends React.Component<
     });
   }
 
-  handleSearchQueryChange = (event) => {
+  handleSearchQueryChange = (event: any) => {
     const searchQuery = event.target.value;
     this.setState({ searchQuery });
   };
@@ -353,65 +357,49 @@ export default class Kitchen extends React.Component<
     ) => void,
     filterToValidCombosFor?: string
   ): Array<JSX.Element> {
-    // THIS WHOLE SECTION NEEDS REFACTORING!!
+    // Pulls searchQuery value from state
     const { searchQuery } = this.state;
-    // array to store filtered unicode ids
-    const unicodeArr = [];
-    const splitSearch = [];
-    if (searchQuery.includes(" ")) {
-      splitSearch.push(
-        ...searchQuery.split(" ").flatMap((item) => item.split(" "))
-      );
-      console.log(splitSearch);
-    } else {
-      splitSearch[0] = searchQuery;
-      console.log(splitSearch);
-    }
-    let i;
-    side === "l" ? (i = 0) : (i = 1);
-    const filteredEmojis = processedEmojis.filter((e) => {
-      return (
-        e.name.includes(splitSearch[i]) ||
-        e.category.includes(splitSearch[i]) ||
-        e.keywords.includes(splitSearch[i])
-      );
-    });
-    for (let i = 0; i < filteredEmojis.length; i++) {
-      unicodeArr.push(filteredEmojis[i].unicode);
-    }
 
-    function checker() {
+    // Initializes a string array that takes our search input string as elements
+    // and will split it into two strings elements if it detects a space
+    const splitSearch: string[] = searchQuery.includes(" ")
+      ? searchQuery.split(" ").flatMap((item) => item.split(" "))
+      : [searchQuery];
+
+    const filteredEmojis: ProcessedEmoji[] = processedEmojis.filter(
+      (e: any) => {
+        return (
+          e.name.includes(splitSearch[side === "l" ? 0 : 1]) ||
+          e.category.includes(splitSearch[side === "l" ? 0 : 1]) ||
+          e.keywords.some((el: any) =>
+            el.includes(splitSearch[side === "l" ? 0 : 1])
+          )
+        );
+      }
+    );
+
+    const unicodeArr: string[] = filteredEmojis.map((e: any) => e.unicode);
+
+    function checker(): boolean {
       if (!searchQuery.length) return true;
       else if (side === "r" && splitSearch.length > 1) return false;
       else if (searchQuery.length && side === "r") return true;
+      return false; // Add a default return value to handle any other cases
     }
-    //
 
-    //emoji-chef: returns array where every element is from known emojis, used for displaying left/right cols
-    // currently all emojis will be generated regardless. Need to implement a filter based on search bar input
-    // but I think this is only possible once the db stuff is figured out as each emoji is being rendered based
-    // on unicode id in URI. Search bar will filter based on emoji name/tags.
-    // First should probably implement a filter function based on unicode id just to get that function working
-    // might have to change map to filter?
     return (checker() ? knownSupportedEmoji : unicodeArr).map((e) => {
-      // Every emoji is considered valid unless we pass in one-half of the pair to filter on
       let isValidCombo = true;
       if (filterToValidCombosFor) {
-        // Find the pairs where the emoji we're on is either on the left or right side of the combinations for this emoji
         isValidCombo = this.state.emojiData[filterToValidCombosFor].some(
           (c) => {
-            // If we're on the double emoji combo, both sides need to be equal to be valid
             if (e === filterToValidCombosFor) {
               return e === c.leftEmoji && e === c.rightEmoji;
             }
-
-            // Otherwise, being on either side is valid
             return e === c.leftEmoji || e === c.rightEmoji;
           }
         );
       }
 
-      // Handle complex enable/disable behavior -- due to needing to restrict certain invalid combinations
       let onClick: (clickedEmoji: string, event: React.SyntheticEvent) => void;
       let opacity: number;
       if (isValidCombo && onClickHandler) {
@@ -518,6 +506,13 @@ interface EmojiCombo {
 interface MouseCoordinates {
   mouseX: number;
   mouseY: number;
+}
+
+interface ProcessedEmoji {
+  unicode: string;
+  name: string;
+  category: string;
+  keywords: string[];
 }
 
 let knownSupportedEmoji = [
