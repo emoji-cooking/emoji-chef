@@ -33,7 +33,7 @@ const processedEmojis : ProcessedEmoji[] = [];
 for (const unicode of knownEmojis) {
   for (const emoji of emojis) {
     //processing all emojis in emoji.json, replacing all whitespace to -
-    const processedUnicode: string = emoji.unicode.toLowerCase().replace('\s/g', '-');
+    const processedUnicode: string = emoji.unicode.toLowerCase().replaceAll(' ', '-');
     if (unicode === processedUnicode) {
       processedEmojis.push({
         "unicode": unicode,
@@ -46,6 +46,7 @@ for (const unicode of knownEmojis) {
 }
 
 //needs to only run once unless new emojis are added to knownEmojis
+// *******     TURN ON WHEN UPDATING EMOJIS     *******
 // fs.writeFileSync(path.resolve(__dirname, './processedEmojis.json'), JSON.stringify(processedEmojis));
 
 
