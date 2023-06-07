@@ -272,6 +272,12 @@
     ]
   },
   {
+    "unicode": "1f970",
+    "name": "smiling face with hearts",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f60d",
     "name": "smiling face with heart-eyes",
     "category": "smileys & emotion",
@@ -294,6 +300,12 @@
       "famous",
       "admiration"
     ]
+  },
+  {
+    "unicode": "1f973",
+    "name": "partying face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f643",
@@ -323,6 +335,18 @@
       "good",
       "selfie"
     ]
+  },
+  {
+    "unicode": "1f972",
+    "name": "smiling face with tear",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f979",
+    "name": "face holding back tears",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f60b",
@@ -492,6 +516,12 @@
     ]
   },
   {
+    "unicode": "1fae1",
+    "name": "saluting face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f914",
     "name": "thinking face",
     "category": "smileys & emotion",
@@ -509,12 +539,24 @@
     ]
   },
   {
+    "unicode": "1fae2",
+    "name": "face with open eyes and hand over mouth",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f92d",
     "name": "face with hand over mouth",
     "category": "smileys & emotion",
     "keywords": [
       "oups"
     ]
+  },
+  {
+    "unicode": "1f971",
+    "name": "yawning face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f917",
@@ -524,6 +566,12 @@
       "hug",
       "thank you"
     ]
+  },
+  {
+    "unicode": "1fae3",
+    "name": "face with peeking eye",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f631",
@@ -618,6 +666,12 @@
     ]
   },
   {
+    "unicode": "1f97a",
+    "name": "pleading face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f61f",
     "name": "worried face",
     "category": "smileys & emotion",
@@ -673,6 +727,12 @@
       "bad",
       "disappointed"
     ]
+  },
+  {
+    "unicode": "1fae4",
+    "name": "face with diagonal mouth",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f615",
@@ -897,6 +957,12 @@
     ]
   },
   {
+    "unicode": "1fae5",
+    "name": "dotted line face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f634",
     "name": "sleeping face",
     "category": "smileys & emotion",
@@ -984,6 +1050,30 @@
       "hump",
       "morning"
     ]
+  },
+  {
+    "unicode": "1fae0",
+    "name": "melting face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f974",
+    "name": "woozy face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f975",
+    "name": "hot face",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
+    "unicode": "1f976",
+    "name": "cold face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f922",
@@ -1101,6 +1191,12 @@
     "keywords": [
       "glasses"
     ]
+  },
+  {
+    "unicode": "1f978",
+    "name": "disguised face",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f925",
@@ -1310,12 +1406,24 @@
     ]
   },
   {
+    "unicode": "1f90e",
+    "name": "brown heart",
+    "category": "smileys & emotion",
+    "keywords": []
+  },
+  {
     "unicode": "1f5a4",
     "name": "black heart",
     "category": "smileys & emotion",
     "keywords": [
       "love"
     ]
+  },
+  {
+    "unicode": "1f90d",
+    "name": "white heart",
+    "category": "smileys & emotion",
+    "keywords": []
   },
   {
     "unicode": "1f498",
