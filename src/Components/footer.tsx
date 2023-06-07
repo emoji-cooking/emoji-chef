@@ -1,9 +1,5 @@
 import { Box, Link, Stack, Tooltip } from "@mui/material";
-import {
-  FileCodeIcon,
-  MentionIcon,
-  SponsorTiersIcon,
-} from "@primer/octicons-react";
+import { FileCodeIcon } from "@primer/octicons-react";
 import React from "react";
 
 export default class Footer extends React.Component {
@@ -12,7 +8,7 @@ export default class Footer extends React.Component {
       <div>
         <Box component="footer" sx={{ py: 4 }}>
           <Stack spacing={4} direction="row" justifyContent="center">
-            <Tooltip title="Contact Me">
+            {/* <Tooltip title="Contact Me">
               <Link
                 href="https://xsalazar.com"
                 color="textPrimary"
@@ -22,7 +18,7 @@ export default class Footer extends React.Component {
               >
                 <MentionIcon size="small" verticalAlign="middle" />
               </Link>
-            </Tooltip>
+            </Tooltip> */}
             <Tooltip title="Source Code">
               <Link
                 href="https://github.com/xsalazar/emoji-kitchen"
@@ -34,7 +30,7 @@ export default class Footer extends React.Component {
                 <FileCodeIcon size="small" verticalAlign="middle" />
               </Link>
             </Tooltip>
-            <Tooltip title="Support Me">
+            {/* <Tooltip title="Support Me">
               <Link
                 href="https://www.buymeacoffee.com/xsalazar"
                 color="textPrimary"
@@ -44,7 +40,7 @@ export default class Footer extends React.Component {
               >
                 <SponsorTiersIcon size="small" verticalAlign="middle" />
               </Link>
-            </Tooltip>
+            </Tooltip> */}
           </Stack>
         </Box>
       </div>

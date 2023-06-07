@@ -2,11 +2,13 @@ import { ImageListItem, Box, Container, Menu, MenuItem } from "@mui/material";
 import LoadingButton from "@mui/lab/LoadingButton";
 import { imageListItemClasses } from "@mui/material/ImageListItem";
 import DownloadIcon from "@mui/icons-material/Download";
+import "./kitchen.css";
 import React from "react";
 import JSZip from "jszip";
 import axios from "axios";
 import saveAs from "file-saver";
-import { resizeImage, writetoClipboard } from '../helpers/writeEmojiToClipboard';
+import { writetoClipboard } from '../helpers/writeEmojiToClipboard';
+const processedEmojis = require("./processedEmojis.json");
 const emojiData: EmojiData = require("./emojiData.json");
 
 interface KitchenProps {}
@@ -14,6 +16,7 @@ interface KitchenProps {}
 interface KitchenState {
   selectedLeftEmoji: string;
   selectedRightEmoji: string;
+  searchQuery: string;
   emojiData: EmojiData;
   bulkDownloadMenu: undefined | MouseCoordinates;
   bulkDownloading: boolean;
@@ -31,6 +34,7 @@ export default class Kitchen extends React.Component<
     this.state = {
       selectedLeftEmoji: "",
       selectedRightEmoji: "",
+      searchQuery: "",
       emojiData: emojiData,
       bulkDownloadMenu: undefined,
       bulkDownloading: false,
@@ -52,19 +56,24 @@ export default class Kitchen extends React.Component<
       bulkDownloading,
     } = this.state;
 
-    var leftList;
-    var middleList;
-    var rightList;
+    let leftList;
+    let middleList;
+    let rightList;
 
     // Neither are selected, show left list, empty middle list, and disable right list
     if (selectedLeftEmoji === "" && selectedRightEmoji === "") {
-      leftList = this.getEmojiImageList(undefined, this.handleLeftEmojiClicked);
+      leftList = this.getEmojiImageList(
+        "l",
+        undefined,
+        this.handleLeftEmojiClicked
+      );
       middleList = <div></div>;
-      rightList = this.getEmojiImageList();
+      rightList = this.getEmojiImageList("r");
     }
     // Left emoji is selected, but not right, disable the right list appropriately
     else if (selectedLeftEmoji !== "" && selectedRightEmoji === "") {
       leftList = this.getEmojiImageList(
+        "l",
         selectedLeftEmoji,
         this.handleLeftEmojiClicked
       );
@@ -93,6 +102,7 @@ export default class Kitchen extends React.Component<
         });
 
       rightList = this.getEmojiImageList(
+        "r",
         undefined,
         this.handleRightEmojiClicked,
         selectedLeftEmoji
@@ -100,12 +110,13 @@ export default class Kitchen extends React.Component<
     }
     // Both are selected, show the single combo
     else {
-      var combo = this.findValidEmojiCombo(
+      let combo = this.findValidEmojiCombo(
         selectedLeftEmoji,
         selectedRightEmoji
       );
 
       leftList = this.getEmojiImageList(
+        "l",
         selectedLeftEmoji,
         this.handleLeftEmojiClicked
       );
@@ -120,6 +131,7 @@ export default class Kitchen extends React.Component<
       );
 
       rightList = this.getEmojiImageList(
+        "r",
         selectedRightEmoji,
         this.handleRightEmojiClicked,
         selectedLeftEmoji
@@ -127,121 +139,137 @@ export default class Kitchen extends React.Component<
     }
 
     return (
-      <div style={{ height: "calc(100vh - 200px)" }}>
-        <Container maxWidth="xl">
-          <Box sx={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)" }}>
-            {/* Left Emoji List */}
-
+      <div>
+        <div className="header">
+          <input
+            type="text"
+            value={this.state.searchQuery}
+            onChange={this.handleSearchQueryChange}
+            placeholder="Search emojis by name..."
+            className="search-bar"
+          ></input>
+        </div>
+        <div style={{ height: "calc(100vh - 200px)" }}>
+          <Container maxWidth="xl">
             <Box
-              sx={{
-                height: "calc(100vh - 200px)",
-                overflowY: "auto",
-                justifyItems: "center",
-              }}
+              sx={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)" }}
             >
+              {/* Left Emoji List */}
+
               <Box
+                className="containers"
                 sx={{
-                  display: "grid",
-                  gridTemplateColumns: {
-                    xs: "repeat(3, 1fr)",
-                    sm: "repeat(5, 1fr)",
-                    md: "repeat(7, 1fr)",
-                    lg: "repeat(9, 1fr)",
-                    xl: "repeat(10, 1fr)",
-                  },
-                  [`& .${imageListItemClasses.root}`]: {
-                    display: "flex",
-                  },
+                  height: "calc(100vh - 200px)",
+                  overflowY: "auto",
+                  justifyItems: "center",
                 }}
               >
-                {leftList}
-              </Box>
-
-              {/* Bulk Download Menu */}
-              {selectedLeftEmoji !== "" ? (
-                <Menu
-                  open={bulkDownloadMenu !== undefined}
-                  onClose={() => {
-                    this.setState({ bulkDownloadMenu: undefined });
+                <Box
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: {
+                      xs: "repeat(3, 1fr)",
+                      sm: "repeat(5, 1fr)",
+                      md: "repeat(7, 1fr)",
+                      lg: "repeat(9, 1fr)",
+                      xl: "repeat(10, 1fr)",
+                    },
+                    [`& .${imageListItemClasses.root}`]: {
+                      display: "flex",
+                    },
                   }}
-                  anchorReference="anchorPosition"
-                  anchorPosition={
-                    bulkDownloadMenu !== undefined
-                      ? {
-                          top: bulkDownloadMenu.mouseY,
-                          left: bulkDownloadMenu.mouseX,
-                        }
-                      : undefined
-                  }
                 >
-                  <MenuItem>
-                    <LoadingButton
-                      loading={bulkDownloading}
-                      loadingPosition="start"
-                      startIcon={<DownloadIcon fontSize="small" />}
-                      onClick={this.handleBulkDownload}
-                    >
-                      Bulk Download
-                    </LoadingButton>
-                  </MenuItem>
-                </Menu>
-              ) : undefined}
-            </Box>
+                  {leftList}
+                </Box>
 
-            {/* Middle Combination List */}
-            <Box
-              sx={{
-                mx: 3,
-                height: "calc(100vh - 200px)",
-                overflowY: "auto",
-                justifyItems: "center",
-              }}
-            >
+                {/* Bulk Download Menu */}
+                {selectedLeftEmoji !== "" ? (
+                  <Menu
+                    open={bulkDownloadMenu !== undefined}
+                    onClose={() => {
+                      this.setState({ bulkDownloadMenu: undefined });
+                    }}
+                    anchorReference="anchorPosition"
+                    anchorPosition={
+                      bulkDownloadMenu !== undefined
+                        ? {
+                            top: bulkDownloadMenu.mouseY,
+                            left: bulkDownloadMenu.mouseX,
+                          }
+                        : undefined
+                    }
+                  >
+                    <MenuItem>
+                      <LoadingButton
+                        loading={bulkDownloading}
+                        loadingPosition="start"
+                        startIcon={<DownloadIcon fontSize="small" />}
+                        onClick={this.handleBulkDownload}
+                      >
+                        Bulk Download
+                      </LoadingButton>
+                    </MenuItem>
+                  </Menu>
+                ) : undefined}
+              </Box>
+
+              {/* Middle Combination List */}
               <Box
+                className="containers"
                 sx={{
-                  display: "grid",
-                  gridTemplateColumns: {
-                    xs: "repeat(1, 1fr)",
-                    sm: "repeat(2, 1fr)",
-                    md: "repeat(3, 1fr)",
-                  },
-                  [`& .${imageListItemClasses.root}`]: {
-                    display: "flex",
-                  },
+                  mx: 3,
+                  height: "calc(100vh - 200px)",
+                  overflowY: "auto",
+                  justifyItems: "center",
                 }}
               >
-                {middleList}
+                <Box
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: {
+                      xs: "repeat(1, 1fr)",
+                      sm: "repeat(2, 1fr)",
+                      md: "repeat(3, 1fr)",
+                    },
+                    [`& .${imageListItemClasses.root}`]: {
+                      display: "flex",
+                    },
+                  }}
+                >
+                  {middleList}
+                </Box>
               </Box>
-            </Box>
 
-            {/* Right Emoji List */}
-            <Box
-              sx={{
-                height: "calc(100vh - 200px)",
-                overflowY: "auto",
-                justifyItems: "center",
-              }}
-            >
+              {/* Right Emoji List */}
               <Box
+                className="containers"
                 sx={{
-                  display: "grid",
-                  gridTemplateColumns: {
-                    xs: "repeat(3, 1fr)",
-                    sm: "repeat(5, 1fr)",
-                    md: "repeat(7, 1fr)",
-                    lg: "repeat(9, 1fr)",
-                    xl: "repeat(10, 1fr)",
-                  },
-                  [`& .${imageListItemClasses.root}`]: {
-                    display: "flex",
-                  },
+                  height: "calc(100vh - 200px)",
+                  overflowY: "auto",
+                  justifyItems: "center",
                 }}
               >
-                {rightList}
+                <Box
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: {
+                      xs: "repeat(3, 1fr)",
+                      sm: "repeat(5, 1fr)",
+                      md: "repeat(7, 1fr)",
+                      lg: "repeat(9, 1fr)",
+                      xl: "repeat(10, 1fr)",
+                    },
+                    [`& .${imageListItemClasses.root}`]: {
+                      display: "flex",
+                    },
+                  }}
+                >
+                  {rightList}
+                </Box>
               </Box>
             </Box>
-          </Box>
-        </Container>
+          </Container>
+        </div>
       </div>
     );
   }
@@ -315,7 +343,13 @@ export default class Kitchen extends React.Component<
     });
   }
 
+  handleSearchQueryChange = (event: any) => {
+    const searchQuery = event.target.value;
+    this.setState({ searchQuery });
+  };
+
   getEmojiImageList(
+    side: string,
     selectedEmoji?: string,
     onClickHandler?: (
       clickedEmoji: string,
@@ -323,28 +357,51 @@ export default class Kitchen extends React.Component<
     ) => void,
     filterToValidCombosFor?: string
   ): Array<JSX.Element> {
-    //emoji-chef: returns array where every element is from known emojis, used for displaying left/right cols
-    return knownSupportedEmoji.map((e) => {
-      // Every emoji is considered valid unless we pass in one-half of the pair to filter on
-      var isValidCombo = true;
+    // Pulls searchQuery value from state
+    const { searchQuery } = this.state;
+
+    // Initializes a string array that takes our search input string as elements
+    // and will split it into two strings elements if it detects a space
+    const splitSearch: string[] = searchQuery.includes(" ")
+      ? searchQuery.split(" ").flatMap((item) => item.split(" "))
+      : [searchQuery];
+
+    const filteredEmojis: ProcessedEmoji[] = processedEmojis.filter(
+      (e: any) => {
+        return (
+          e.name.includes(splitSearch[side === "l" ? 0 : 1]) ||
+          e.category.includes(splitSearch[side === "l" ? 0 : 1]) ||
+          e.keywords.some((el: any) =>
+            el.includes(splitSearch[side === "l" ? 0 : 1])
+          )
+        );
+      }
+    );
+
+    const unicodeArr: string[] = filteredEmojis.map((e: any) => e.unicode);
+
+    function checker(): boolean {
+      if (!searchQuery.length) return true;
+      else if (side === "r" && splitSearch.length > 1) return false;
+      else if (searchQuery.length && side === "r") return true;
+      return false; // Add a default return value to handle any other cases
+    }
+
+    return (checker() ? knownSupportedEmoji : unicodeArr).map((e) => {
+      let isValidCombo = true;
       if (filterToValidCombosFor) {
-        // Find the pairs where the emoji we're on is either on the left or right side of the combinations for this emoji
         isValidCombo = this.state.emojiData[filterToValidCombosFor].some(
           (c) => {
-            // If we're on the double emoji combo, both sides need to be equal to be valid
             if (e === filterToValidCombosFor) {
               return e === c.leftEmoji && e === c.rightEmoji;
             }
-
-            // Otherwise, being on either side is valid
             return e === c.leftEmoji || e === c.rightEmoji;
           }
         );
       }
 
-      // Handle complex enable/disable behavior -- due to needing to restrict certain invalid combinations
-      var onClick: (clickedEmoji: string, event: React.SyntheticEvent) => void;
-      var opacity: number;
+      let onClick: (clickedEmoji: string, event: React.SyntheticEvent) => void;
+      let opacity: number;
       if (isValidCombo && onClickHandler) {
         onClick = onClickHandler;
         opacity = 1;
@@ -411,7 +468,7 @@ export default class Kitchen extends React.Component<
     this.setState({ bulkDownloading: true });
 
     for (
-      var i = 0;
+      let i = 0;
       i < this.state.emojiData[this.state.selectedLeftEmoji].length;
       i++
     ) {
@@ -451,7 +508,14 @@ interface MouseCoordinates {
   mouseY: number;
 }
 
-var knownSupportedEmoji = [
+interface ProcessedEmoji {
+  unicode: string;
+  name: string;
+  category: string;
+  keywords: string[];
+}
+
+let knownSupportedEmoji = [
   "1fa84", // 🪄
   "1f600", // 😀
   "1f603", // 😃
