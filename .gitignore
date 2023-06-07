@@ -23,6 +23,3 @@ yarn-debug.log*
 yarn-error.log*
 
 downloads/
-
-# from ejected
-/scripts
