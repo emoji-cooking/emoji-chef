@@ -6,6 +6,7 @@ import React from "react";
 import JSZip from "jszip";
 import axios from "axios";
 import saveAs from "file-saver";
+import { resizeImage, writetoClipboard } from '../helpers/writeEmojiToClipboard';
 const emojiData: EmojiData = require("./emojiData.json");
 
 interface KitchenProps {}
@@ -79,7 +80,7 @@ export default class Kitchen extends React.Component<
         })
         .map((combo) => {
           return (
-            <ImageListItem key={`${combo.leftEmoji}_${combo.rightEmoji}`}>
+            <ImageListItem key={`${combo.leftEmoji}_${combo.rightEmoji}`} onClick={() => {writetoClipboard(this.googleRequestUrl(combo))}} >
               <img
                 loading="lazy"
                 width="256px"
