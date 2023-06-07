@@ -67,11 +67,7 @@ export default class Kitchen extends React.Component<
         this.handleLeftEmojiClicked
       );
       middleList = <div></div>;
-      rightList = this.getEmojiImageList(
-        "r",
-        undefined,
-        this.handleRightEmojiClicked
-      );
+      rightList = this.getEmojiImageList("r");
     }
     // Left emoji is selected, but not right, disable the right list appropriately
     else if (selectedLeftEmoji !== "" && selectedRightEmoji === "") {
@@ -160,6 +156,7 @@ export default class Kitchen extends React.Component<
               {/* Left Emoji List */}
 
               <Box
+                className="containers"
                 sx={{
                   height: "calc(100vh - 200px)",
                   overflowY: "auto",
@@ -217,6 +214,7 @@ export default class Kitchen extends React.Component<
 
               {/* Middle Combination List */}
               <Box
+                className="containers"
                 sx={{
                   mx: 3,
                   height: "calc(100vh - 200px)",
@@ -243,6 +241,7 @@ export default class Kitchen extends React.Component<
 
               {/* Right Emoji List */}
               <Box
+                className="containers"
                 sx={{
                   height: "calc(100vh - 200px)",
                   overflowY: "auto",
