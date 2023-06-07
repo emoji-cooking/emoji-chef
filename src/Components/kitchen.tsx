@@ -386,7 +386,9 @@ export default class Kitchen extends React.Component<
     // on unicode id in URI. Search bar will filter based on emoji name/tags.
     // First should probably implement a filter function based on unicode id just to get that function working
     // might have to change map to filter?
-    return (!searchQuery.length ? knownSupportedEmoji : unicodeArr).map((e) => {
+    return (
+      !searchQuery.length || side === "r" ? knownSupportedEmoji : unicodeArr
+    ).map((e) => {
       // Every emoji is considered valid unless we pass in one-half of the pair to filter on
       let isValidCombo = true;
       if (filterToValidCombosFor) {
